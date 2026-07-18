@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "MM": "MOT",
+        "VGM": "MOT",
+        "EGW": "MOT",
+        "GGR": "MOT",
+        "GoS": "MOT",
+        "TftYP": "MOT",
+        "MTF": "MOT"
+      }
+    }
+  },
+  "monster": []
+}

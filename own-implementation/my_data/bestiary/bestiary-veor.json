@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "MPMM",
+        "BAM",
+        "VRGR"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "VEoR",
+        "BAM": "VEoR",
+        "VRGR": "VEoR",
+        "MPMM": "VEoR",
+        "DSotDQ": "VEoR",
+        "WBtW": "VEoR"
+      }
+    }
+  },
+  "monster": []
+}

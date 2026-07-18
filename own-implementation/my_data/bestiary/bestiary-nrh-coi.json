@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "otherSources": {
+      "monster": {
+        "NRH-TCMC": "NRH-CoI",
+        "MM": "NRH-CoI"
+      }
+    }
+  },
+  "monster": []
+}

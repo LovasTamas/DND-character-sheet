@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "JttRC"
+      }
+    }
+  },
+  "monster": []
+}

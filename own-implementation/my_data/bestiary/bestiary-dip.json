@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "MM": "DIP",
+        "MTF": "DIP",
+        "VGM": "DIP"
+      }
+    }
+  },
+  "monster": []
+}

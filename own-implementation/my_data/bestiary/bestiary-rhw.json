@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "referenceSources": {
+      "monster": {
+        "XMM": "RHW"
+      }
+    }
+  },
+  "monster": []
+}

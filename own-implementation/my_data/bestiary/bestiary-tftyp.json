@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "VGM",
+        "MTF"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "TftYP",
+        "VGM": "TftYP",
+        "MTF": "TftYP"
+      }
+    }
+  },
+  "monster": []
+}

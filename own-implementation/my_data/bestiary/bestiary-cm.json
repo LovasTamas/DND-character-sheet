@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "ToA",
+        "MOT"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "CM",
+        "CoS": "CM",
+        "VGM": "CM",
+        "MOT": "CM"
+      }
+    }
+  },
+  "monster": []
+}

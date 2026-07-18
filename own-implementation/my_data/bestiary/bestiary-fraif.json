@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "otherSources": {
+      "monster": {
+        "XMM": "FRAiF",
+        "MM": "FRAiF",
+        "MPMM": "FRAiF",
+        "FTD": "FRAiF"
+      }
+    }
+  },
+  "monster": []
+}

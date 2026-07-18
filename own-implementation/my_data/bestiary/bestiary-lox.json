@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "BAM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "BAM": "LoX",
+        "MM": "LoX"
+      }
+    }
+  },
+  "monster": []
+}

@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monsterFluff": [
+        "MOT"
+      ]
+    }
+  },
+  "monsterFluff": []
+}

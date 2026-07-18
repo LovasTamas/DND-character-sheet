@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "XMM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "XMM": "HotB"
+      }
+    }
+  },
+  "monster": []
+}

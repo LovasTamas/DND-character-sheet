@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM",
+        "ToA"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "IDRotF",
+        "MTF": "IDRotF",
+        "SKT": "IDRotF",
+        "VRGR": "IDRotF"
+      }
+    }
+  },
+  "monster": []
+}

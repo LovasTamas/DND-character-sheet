@@ -1,0 +1,12 @@
+{
+  "adventure": [],
+  "book": [
+    {
+      "name": "Player's Handbook (2024)",
+      "id": "XPHB",
+      "source": "XPHB",
+      "group": "core",
+      "published": "2024-09-17"
+    }
+  ]
+}

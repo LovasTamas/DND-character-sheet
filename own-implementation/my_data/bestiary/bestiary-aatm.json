@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "otherSources": {
+      "monster": {
+        "MPP": "AATM",
+        "MM": "AATM",
+        "MPMM": "AATM",
+        "VRGR": "AATM"
+      }
+    }
+  },
+  "monster": []
+}

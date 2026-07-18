@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "MTF": "TTP",
+        "MM": "TTP"
+      }
+    }
+  },
+  "monster": []
+}

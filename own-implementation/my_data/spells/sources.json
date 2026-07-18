@@ -1,0 +1,9222 @@
+{
+  "AAG": {
+    "Air Bubble": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Create Spelljamming Helm": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "AI": {
+    "Distort Value": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fast Friends": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Gift of Gab": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Incite Greed": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Jim's Glowing Coin": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Jim's Magic Missile": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Motivational Speech": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "AitFR-AVT": {
+    "Linked Glyphs": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "FTD": {
+    "Ashardalon's Stride": {
+      "classVariant": [
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Draconic Transformation": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Fizban's Platinum Shield": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Nathair's Mischief": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Raulothim's Psychic Lance": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Rime's Binding Ice": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FTD"
+        }
+      ]
+    },
+    "Summon Draconic Spirit": {
+      "classVariant": []
+    }
+  },
+  "IDRotF": {
+    "Create Magen": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Frost Fingers": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "LLK": {
+    "Flock of Familiars": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Galder's Speedy Courier": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Galder's Tower": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "PHB": {
+    "Acid Splash": {
+      "class": []
+    },
+    "Aid": {
+      "class": [],
+      "classVariant": []
+    },
+    "Alarm": {
+      "class": []
+    },
+    "Alter Self": {
+      "class": []
+    },
+    "Animal Friendship": {
+      "class": []
+    },
+    "Animal Messenger": {
+      "class": []
+    },
+    "Animal Shapes": {
+      "class": []
+    },
+    "Animate Dead": {
+      "class": []
+    },
+    "Animate Objects": {
+      "class": []
+    },
+    "Antilife Shell": {
+      "class": []
+    },
+    "Antimagic Field": {
+      "class": []
+    },
+    "Antipathy/Sympathy": {
+      "class": [],
+      "classVariant": []
+    },
+    "Arcane Eye": {
+      "class": []
+    },
+    "Arcane Gate": {
+      "class": []
+    },
+    "Arcane Lock": {
+      "class": []
+    },
+    "Armor of Agathys": {
+      "class": []
+    },
+    "Arms of Hadar": {
+      "class": []
+    },
+    "Astral Projection": {
+      "class": []
+    },
+    "Augury": {
+      "class": [],
+      "classVariant": []
+    },
+    "Aura of Life": {
+      "class": [],
+      "classVariant": []
+    },
+    "Aura of Purity": {
+      "class": [],
+      "classVariant": []
+    },
+    "Aura of Vitality": {
+      "class": [],
+      "classVariant": []
+    },
+    "Awaken": {
+      "class": []
+    },
+    "Bane": {
+      "class": []
+    },
+    "Banishing Smite": {
+      "class": []
+    },
+    "Banishment": {
+      "class": []
+    },
+    "Barkskin": {
+      "class": []
+    },
+    "Beacon of Hope": {
+      "class": []
+    },
+    "Beast Sense": {
+      "class": []
+    },
+    "Bestow Curse": {
+      "class": []
+    },
+    "Bigby's Hand": {
+      "class": [],
+      "classVariant": []
+    },
+    "Blade Barrier": {
+      "class": []
+    },
+    "Blade Ward": {
+      "class": []
+    },
+    "Bless": {
+      "class": []
+    },
+    "Blight": {
+      "class": []
+    },
+    "Blinding Smite": {
+      "class": []
+    },
+    "Blindness/Deafness": {
+      "class": []
+    },
+    "Blink": {
+      "class": []
+    },
+    "Blur": {
+      "class": []
+    },
+    "Branding Smite": {
+      "class": []
+    },
+    "Burning Hands": {
+      "class": []
+    },
+    "Call Lightning": {
+      "class": []
+    },
+    "Calm Emotions": {
+      "class": []
+    },
+    "Chain Lightning": {
+      "class": []
+    },
+    "Charm Person": {
+      "class": []
+    },
+    "Chill Touch": {
+      "class": []
+    },
+    "Chromatic Orb": {
+      "class": []
+    },
+    "Circle of Death": {
+      "class": []
+    },
+    "Circle of Power": {
+      "class": []
+    },
+    "Clairvoyance": {
+      "class": []
+    },
+    "Clone": {
+      "class": []
+    },
+    "Cloud of Daggers": {
+      "class": []
+    },
+    "Cloudkill": {
+      "class": []
+    },
+    "Color Spray": {
+      "class": [],
+      "classVariant": []
+    },
+    "Command": {
+      "class": [],
+      "classVariant": []
+    },
+    "Commune": {
+      "class": []
+    },
+    "Commune with Nature": {
+      "class": []
+    },
+    "Compelled Duel": {
+      "class": []
+    },
+    "Comprehend Languages": {
+      "class": []
+    },
+    "Compulsion": {
+      "class": []
+    },
+    "Cone of Cold": {
+      "class": [],
+      "classVariant": []
+    },
+    "Confusion": {
+      "class": []
+    },
+    "Conjure Animals": {
+      "class": []
+    },
+    "Conjure Barrage": {
+      "class": []
+    },
+    "Conjure Celestial": {
+      "class": []
+    },
+    "Conjure Elemental": {
+      "class": []
+    },
+    "Conjure Fey": {
+      "class": []
+    },
+    "Conjure Minor Elementals": {
+      "class": []
+    },
+    "Conjure Volley": {
+      "class": []
+    },
+    "Conjure Woodland Beings": {
+      "class": []
+    },
+    "Contact Other Plane": {
+      "class": []
+    },
+    "Contagion": {
+      "class": []
+    },
+    "Contingency": {
+      "class": []
+    },
+    "Continual Flame": {
+      "class": [],
+      "classVariant": []
+    },
+    "Control Water": {
+      "class": []
+    },
+    "Control Weather": {
+      "class": []
+    },
+    "Cordon of Arrows": {
+      "class": []
+    },
+    "Counterspell": {
+      "class": []
+    },
+    "Create Food and Water": {
+      "class": []
+    },
+    "Create or Destroy Water": {
+      "class": []
+    },
+    "Create Undead": {
+      "class": []
+    },
+    "Creation": {
+      "class": []
+    },
+    "Crown of Madness": {
+      "class": []
+    },
+    "Crusader's Mantle": {
+      "class": []
+    },
+    "Cure Wounds": {
+      "class": []
+    },
+    "Dancing Lights": {
+      "class": []
+    },
+    "Darkness": {
+      "class": []
+    },
+    "Darkvision": {
+      "class": []
+    },
+    "Daylight": {
+      "class": []
+    },
+    "Death Ward": {
+      "class": []
+    },
+    "Delayed Blast Fireball": {
+      "class": []
+    },
+    "Demiplane": {
+      "class": [],
+      "classVariant": []
+    },
+    "Destructive Wave": {
+      "class": []
+    },
+    "Detect Evil and Good": {
+      "class": []
+    },
+    "Detect Magic": {
+      "class": []
+    },
+    "Detect Poison and Disease": {
+      "class": []
+    },
+    "Detect Thoughts": {
+      "class": []
+    },
+    "Dimension Door": {
+      "class": []
+    },
+    "Disguise Self": {
+      "class": []
+    },
+    "Disintegrate": {
+      "class": []
+    },
+    "Dispel Evil and Good": {
+      "class": []
+    },
+    "Dispel Magic": {
+      "class": []
+    },
+    "Dissonant Whispers": {
+      "class": []
+    },
+    "Divination": {
+      "class": [],
+      "classVariant": []
+    },
+    "Divine Favor": {
+      "class": []
+    },
+    "Divine Word": {
+      "class": []
+    },
+    "Dominate Beast": {
+      "class": [],
+      "classVariant": []
+    },
+    "Dominate Monster": {
+      "class": []
+    },
+    "Dominate Person": {
+      "class": []
+    },
+    "Drawmij's Instant Summons": {
+      "class": []
+    },
+    "Dream": {
+      "class": []
+    },
+    "Druidcraft": {
+      "class": []
+    },
+    "Earthquake": {
+      "class": []
+    },
+    "Eldritch Blast": {
+      "class": []
+    },
+    "Elemental Weapon": {
+      "class": [],
+      "classVariant": []
+    },
+    "Enhance Ability": {
+      "class": [],
+      "classVariant": []
+    },
+    "Enlarge/Reduce": {
+      "class": [],
+      "classVariant": []
+    },
+    "Ensnaring Strike": {
+      "class": []
+    },
+    "Entangle": {
+      "class": [],
+      "classVariant": []
+    },
+    "Enthrall": {
+      "class": []
+    },
+    "Etherealness": {
+      "class": []
+    },
+    "Evard's Black Tentacles": {
+      "class": []
+    },
+    "Expeditious Retreat": {
+      "class": []
+    },
+    "Eyebite": {
+      "class": []
+    },
+    "Fabricate": {
+      "class": []
+    },
+    "Faerie Fire": {
+      "class": []
+    },
+    "False Life": {
+      "class": []
+    },
+    "Fear": {
+      "class": []
+    },
+    "Feather Fall": {
+      "class": []
+    },
+    "Feeblemind": {
+      "class": []
+    },
+    "Feign Death": {
+      "class": []
+    },
+    "Find Familiar": {
+      "class": []
+    },
+    "Find Steed": {
+      "class": []
+    },
+    "Find the Path": {
+      "class": []
+    },
+    "Find Traps": {
+      "class": []
+    },
+    "Finger of Death": {
+      "class": []
+    },
+    "Fire Bolt": {
+      "class": []
+    },
+    "Fire Shield": {
+      "class": [],
+      "classVariant": []
+    },
+    "Fire Storm": {
+      "class": []
+    },
+    "Fireball": {
+      "class": []
+    },
+    "Flame Blade": {
+      "class": [],
+      "classVariant": []
+    },
+    "Flame Strike": {
+      "class": []
+    },
+    "Flaming Sphere": {
+      "class": [],
+      "classVariant": []
+    },
+    "Flesh to Stone": {
+      "class": [],
+      "classVariant": []
+    },
+    "Fly": {
+      "class": []
+    },
+    "Fog Cloud": {
+      "class": []
+    },
+    "Forbiddance": {
+      "class": []
+    },
+    "Forcecage": {
+      "class": []
+    },
+    "Foresight": {
+      "class": []
+    },
+    "Freedom of Movement": {
+      "class": []
+    },
+    "Friends": {
+      "class": []
+    },
+    "Gaseous Form": {
+      "class": []
+    },
+    "Gate": {
+      "class": [],
+      "classVariant": []
+    },
+    "Geas": {
+      "class": []
+    },
+    "Gentle Repose": {
+      "class": [],
+      "classVariant": []
+    },
+    "Giant Insect": {
+      "class": []
+    },
+    "Glibness": {
+      "class": []
+    },
+    "Globe of Invulnerability": {
+      "class": []
+    },
+    "Glyph of Warding": {
+      "class": []
+    },
+    "Goodberry": {
+      "class": []
+    },
+    "Grasping Vine": {
+      "class": []
+    },
+    "Grease": {
+      "class": [],
+      "classVariant": []
+    },
+    "Greater Invisibility": {
+      "class": []
+    },
+    "Greater Restoration": {
+      "class": [],
+      "classVariant": []
+    },
+    "Guardian of Faith": {
+      "class": []
+    },
+    "Guards and Wards": {
+      "class": []
+    },
+    "Guidance": {
+      "class": []
+    },
+    "Guiding Bolt": {
+      "class": []
+    },
+    "Gust of Wind": {
+      "class": [],
+      "classVariant": []
+    },
+    "Hail of Thorns": {
+      "class": []
+    },
+    "Hallow": {
+      "class": []
+    },
+    "Hallucinatory Terrain": {
+      "class": []
+    },
+    "Harm": {
+      "class": []
+    },
+    "Haste": {
+      "class": []
+    },
+    "Heal": {
+      "class": []
+    },
+    "Healing Word": {
+      "class": []
+    },
+    "Heat Metal": {
+      "class": []
+    },
+    "Hellish Rebuke": {
+      "class": []
+    },
+    "Heroes' Feast": {
+      "class": [],
+      "classVariant": []
+    },
+    "Heroism": {
+      "class": []
+    },
+    "Hex": {
+      "class": []
+    },
+    "Hold Monster": {
+      "class": []
+    },
+    "Hold Person": {
+      "class": []
+    },
+    "Holy Aura": {
+      "class": []
+    },
+    "Hunger of Hadar": {
+      "class": []
+    },
+    "Hunter's Mark": {
+      "class": []
+    },
+    "Hypnotic Pattern": {
+      "class": []
+    },
+    "Ice Storm": {
+      "class": []
+    },
+    "Identify": {
+      "class": []
+    },
+    "Illusory Script": {
+      "class": []
+    },
+    "Imprisonment": {
+      "class": []
+    },
+    "Incendiary Cloud": {
+      "class": [],
+      "classVariant": []
+    },
+    "Inflict Wounds": {
+      "class": []
+    },
+    "Insect Plague": {
+      "class": []
+    },
+    "Invisibility": {
+      "class": []
+    },
+    "Jump": {
+      "class": []
+    },
+    "Knock": {
+      "class": []
+    },
+    "Legend Lore": {
+      "class": []
+    },
+    "Leomund's Secret Chest": {
+      "class": []
+    },
+    "Leomund's Tiny Hut": {
+      "class": []
+    },
+    "Lesser Restoration": {
+      "class": []
+    },
+    "Levitate": {
+      "class": []
+    },
+    "Light": {
+      "class": []
+    },
+    "Lightning Arrow": {
+      "class": []
+    },
+    "Lightning Bolt": {
+      "class": []
+    },
+    "Locate Animals or Plants": {
+      "class": []
+    },
+    "Locate Creature": {
+      "class": []
+    },
+    "Locate Object": {
+      "class": []
+    },
+    "Longstrider": {
+      "class": []
+    },
+    "Mage Armor": {
+      "class": []
+    },
+    "Mage Hand": {
+      "class": []
+    },
+    "Magic Circle": {
+      "class": []
+    },
+    "Magic Jar": {
+      "class": []
+    },
+    "Magic Missile": {
+      "class": []
+    },
+    "Magic Mouth": {
+      "class": []
+    },
+    "Magic Weapon": {
+      "class": [],
+      "classVariant": []
+    },
+    "Major Image": {
+      "class": []
+    },
+    "Mass Cure Wounds": {
+      "class": []
+    },
+    "Mass Heal": {
+      "class": []
+    },
+    "Mass Healing Word": {
+      "class": [],
+      "classVariant": []
+    },
+    "Mass Suggestion": {
+      "class": []
+    },
+    "Maze": {
+      "class": []
+    },
+    "Meld into Stone": {
+      "class": [],
+      "classVariant": []
+    },
+    "Melf's Acid Arrow": {
+      "class": []
+    },
+    "Mending": {
+      "class": []
+    },
+    "Message": {
+      "class": []
+    },
+    "Meteor Swarm": {
+      "class": []
+    },
+    "Mind Blank": {
+      "class": []
+    },
+    "Minor Illusion": {
+      "class": []
+    },
+    "Mirage Arcane": {
+      "class": []
+    },
+    "Mirror Image": {
+      "class": [],
+      "classVariant": []
+    },
+    "Mislead": {
+      "class": [],
+      "classVariant": []
+    },
+    "Misty Step": {
+      "class": []
+    },
+    "Modify Memory": {
+      "class": []
+    },
+    "Moonbeam": {
+      "class": []
+    },
+    "Mordenkainen's Faithful Hound": {
+      "class": []
+    },
+    "Mordenkainen's Magnificent Mansion": {
+      "class": []
+    },
+    "Mordenkainen's Private Sanctum": {
+      "class": []
+    },
+    "Mordenkainen's Sword": {
+      "class": []
+    },
+    "Move Earth": {
+      "class": []
+    },
+    "Nondetection": {
+      "class": []
+    },
+    "Nystul's Magic Aura": {
+      "class": []
+    },
+    "Otiluke's Freezing Sphere": {
+      "class": [],
+      "classVariant": []
+    },
+    "Otiluke's Resilient Sphere": {
+      "class": []
+    },
+    "Otto's Irresistible Dance": {
+      "class": []
+    },
+    "Pass without Trace": {
+      "class": []
+    },
+    "Passwall": {
+      "class": []
+    },
+    "Phantasmal Force": {
+      "class": []
+    },
+    "Phantasmal Killer": {
+      "class": [],
+      "classVariant": []
+    },
+    "Phantom Steed": {
+      "class": []
+    },
+    "Planar Ally": {
+      "class": []
+    },
+    "Planar Binding": {
+      "class": [],
+      "classVariant": []
+    },
+    "Plane Shift": {
+      "class": []
+    },
+    "Plant Growth": {
+      "class": []
+    },
+    "Poison Spray": {
+      "class": []
+    },
+    "Polymorph": {
+      "class": []
+    },
+    "Power Word Heal": {
+      "class": [],
+      "classVariant": []
+    },
+    "Power Word Kill": {
+      "class": []
+    },
+    "Power Word Stun": {
+      "class": []
+    },
+    "Prayer of Healing": {
+      "class": [],
+      "classVariant": []
+    },
+    "Prestidigitation": {
+      "class": []
+    },
+    "Prismatic Spray": {
+      "class": [],
+      "classVariant": []
+    },
+    "Prismatic Wall": {
+      "class": [],
+      "classVariant": []
+    },
+    "Produce Flame": {
+      "class": []
+    },
+    "Programmed Illusion": {
+      "class": []
+    },
+    "Project Image": {
+      "class": []
+    },
+    "Protection from Energy": {
+      "class": []
+    },
+    "Protection from Evil and Good": {
+      "class": [],
+      "classVariant": []
+    },
+    "Protection from Poison": {
+      "class": []
+    },
+    "Purify Food and Drink": {
+      "class": []
+    },
+    "Raise Dead": {
+      "class": []
+    },
+    "Rary's Telepathic Bond": {
+      "class": [],
+      "classVariant": []
+    },
+    "Ray of Enfeeblement": {
+      "class": []
+    },
+    "Ray of Frost": {
+      "class": []
+    },
+    "Ray of Sickness": {
+      "class": []
+    },
+    "Regenerate": {
+      "class": []
+    },
+    "Reincarnate": {
+      "class": []
+    },
+    "Remove Curse": {
+      "class": []
+    },
+    "Resistance": {
+      "class": []
+    },
+    "Resurrection": {
+      "class": []
+    },
+    "Reverse Gravity": {
+      "class": []
+    },
+    "Revivify": {
+      "class": [],
+      "classVariant": []
+    },
+    "Rope Trick": {
+      "class": []
+    },
+    "Sacred Flame": {
+      "class": []
+    },
+    "Sanctuary": {
+      "class": []
+    },
+    "Scorching Ray": {
+      "class": []
+    },
+    "Scrying": {
+      "class": []
+    },
+    "Searing Smite": {
+      "class": [],
+      "classVariant": []
+    },
+    "See Invisibility": {
+      "class": []
+    },
+    "Seeming": {
+      "class": []
+    },
+    "Sending": {
+      "class": []
+    },
+    "Sequester": {
+      "class": []
+    },
+    "Shapechange": {
+      "class": []
+    },
+    "Shatter": {
+      "class": []
+    },
+    "Shield": {
+      "class": []
+    },
+    "Shield of Faith": {
+      "class": []
+    },
+    "Shillelagh": {
+      "class": []
+    },
+    "Shocking Grasp": {
+      "class": []
+    },
+    "Silence": {
+      "class": []
+    },
+    "Silent Image": {
+      "class": []
+    },
+    "Simulacrum": {
+      "class": []
+    },
+    "Sleep": {
+      "class": []
+    },
+    "Sleet Storm": {
+      "class": []
+    },
+    "Slow": {
+      "class": [],
+      "classVariant": []
+    },
+    "Spare the Dying": {
+      "class": []
+    },
+    "Speak with Animals": {
+      "class": []
+    },
+    "Speak with Dead": {
+      "class": [],
+      "classVariant": []
+    },
+    "Speak with Plants": {
+      "class": []
+    },
+    "Spider Climb": {
+      "class": []
+    },
+    "Spike Growth": {
+      "class": []
+    },
+    "Spirit Guardians": {
+      "class": []
+    },
+    "Spiritual Weapon": {
+      "class": []
+    },
+    "Staggering Smite": {
+      "class": []
+    },
+    "Stinking Cloud": {
+      "class": []
+    },
+    "Stone Shape": {
+      "class": []
+    },
+    "Stoneskin": {
+      "class": []
+    },
+    "Storm of Vengeance": {
+      "class": []
+    },
+    "Suggestion": {
+      "class": []
+    },
+    "Sunbeam": {
+      "class": [],
+      "classVariant": []
+    },
+    "Sunburst": {
+      "class": [],
+      "classVariant": []
+    },
+    "Swift Quiver": {
+      "class": []
+    },
+    "Symbol": {
+      "class": [],
+      "classVariant": []
+    },
+    "Tasha's Hideous Laughter": {
+      "class": []
+    },
+    "Telekinesis": {
+      "class": []
+    },
+    "Telepathy": {
+      "class": []
+    },
+    "Teleport": {
+      "class": []
+    },
+    "Teleportation Circle": {
+      "class": [],
+      "classVariant": []
+    },
+    "Tenser's Floating Disk": {
+      "class": []
+    },
+    "Thaumaturgy": {
+      "class": []
+    },
+    "Thorn Whip": {
+      "class": []
+    },
+    "Thunderous Smite": {
+      "class": []
+    },
+    "Thunderwave": {
+      "class": []
+    },
+    "Time Stop": {
+      "class": []
+    },
+    "Tongues": {
+      "class": []
+    },
+    "Transport via Plants": {
+      "class": []
+    },
+    "Tree Stride": {
+      "class": []
+    },
+    "True Polymorph": {
+      "class": []
+    },
+    "True Resurrection": {
+      "class": []
+    },
+    "True Seeing": {
+      "class": []
+    },
+    "True Strike": {
+      "class": []
+    },
+    "Tsunami": {
+      "class": []
+    },
+    "Unseen Servant": {
+      "class": []
+    },
+    "Vampiric Touch": {
+      "class": [],
+      "classVariant": []
+    },
+    "Vicious Mockery": {
+      "class": []
+    },
+    "Wall of Fire": {
+      "class": []
+    },
+    "Wall of Force": {
+      "class": []
+    },
+    "Wall of Ice": {
+      "class": []
+    },
+    "Wall of Stone": {
+      "class": []
+    },
+    "Wall of Thorns": {
+      "class": []
+    },
+    "Warding Bond": {
+      "class": [],
+      "classVariant": []
+    },
+    "Water Breathing": {
+      "class": []
+    },
+    "Water Walk": {
+      "class": []
+    },
+    "Web": {
+      "class": []
+    },
+    "Weird": {
+      "class": [],
+      "classVariant": []
+    },
+    "Wind Walk": {
+      "class": []
+    },
+    "Wind Wall": {
+      "class": []
+    },
+    "Wish": {
+      "class": []
+    },
+    "Witch Bolt": {
+      "class": []
+    },
+    "Word of Recall": {
+      "class": []
+    },
+    "Wrathful Smite": {
+      "class": []
+    },
+    "Zone of Truth": {
+      "class": []
+    }
+  },
+  "SatO": {
+    "Gate Seal": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        }
+      ]
+    },
+    "Warp Sense": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SatO"
+        }
+      ]
+    }
+  },
+  "SCC": {
+    "Borrowed Knowledge": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Kinetic Jaunt": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Silvery Barbs": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Vortex Warp": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wither and Bloom": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "TCE": {
+    "Blade of Disaster": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Booming Blade": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        }
+      ],
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Dream of the Blue Veil": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Green-Flame Blade": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        }
+      ],
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Intellect Fortress": {
+      "class": [],
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Lightning Lure": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        }
+      ],
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Mind Sliver": {
+      "classVariant": []
+    },
+    "Spirit Shroud": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Summon Aberration": {
+      "classVariant": []
+    },
+    "Summon Beast": {
+      "classVariant": []
+    },
+    "Summon Celestial": {
+      "classVariant": []
+    },
+    "Summon Construct": {
+      "class": [],
+      "classVariant": []
+    },
+    "Summon Elemental": {
+      "classVariant": []
+    },
+    "Summon Fey": {
+      "classVariant": []
+    },
+    "Summon Fiend": {
+      "classVariant": []
+    },
+    "Summon Shadowspawn": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Summon Undead": {
+      "classVariant": []
+    },
+    "Sword Burst": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "SCAG"
+        }
+      ],
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Tasha's Caustic Brew": {
+      "class": [],
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Tasha's Mind Whip": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    },
+    "Tasha's Otherworldly Guise": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "TCE"
+        }
+      ]
+    }
+  },
+  "XGE": {
+    "Abi-Dalzim's Horrid Wilting": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Absorb Elements": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Aganazzar's Scorcher": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Beast Bond": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Bones of the Earth": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Catapult": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Catnap": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Cause Fear": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Ceremony": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Chaos Bolt": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Charm Monster": {
+      "classVariant": []
+    },
+    "Control Flames": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Control Winds": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Create Bonfire": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Create Homunculus": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Crown of Stars": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Danse Macabre": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Dawn": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Dragon's Breath": {
+      "classVariant": []
+    },
+    "Druid Grove": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Dust Devil": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Earth Tremor": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Earthbind": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Elemental Bane": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Enemies Abound": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Enervation": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Erupting Earth": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Far Step": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Find Greater Steed": {
+      "classVariant": [
+        {
+          "name": "Paladin",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Flame Arrows": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Frostbite": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Guardian of Nature": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Gust": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Healing Spirit": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Holy Weapon": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Ice Knife": {
+      "classVariant": []
+    },
+    "Illusory Dragon": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Immolation": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Infernal Calling": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Infestation": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Investiture of Flame": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Investiture of Ice": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Investiture of Stone": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Investiture of Wind": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Invulnerability": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Life Transference": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Maddening Darkness": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Maelstrom": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Magic Stone": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Mass Polymorph": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Maximilian's Earthen Grasp": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Melf's Minute Meteors": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Mental Prison": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Mighty Fortress": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Mind Spike": {
+      "classVariant": []
+    },
+    "Mold Earth": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Negative Energy Flood": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Power Word Pain": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Primal Savagery": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Primordial Ward": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Psychic Scream": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Pyrotechnics": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Scatter": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Shadow Blade": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Shadow of Moil": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Shape Water": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Sickening Radiance": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Skill Empowerment": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Skywrite": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Snare": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Snilloc's Snowball Swarm": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Soul Cage": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Steel Wind Strike": {
+      "classVariant": []
+    },
+    "Storm Sphere": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Summon Greater Demon": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Summon Lesser Demons": {
+      "classVariant": [
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Synaptic Static": {
+      "classVariant": []
+    },
+    "Temple of the Gods": {
+      "classVariant": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Tenser's Transformation": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Thunder Step": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Thunderclap": {
+      "classVariant": []
+    },
+    "Tidal Wave": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Tiny Servant": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Toll the Dead": {
+      "classVariant": []
+    },
+    "Transmute Rock": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Vitriolic Sphere": {
+      "classVariant": []
+    },
+    "Wall of Light": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Wall of Sand": {
+      "classVariant": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Wall of Water": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Warding Wind": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Watery Sphere": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Whirlwind": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Word of Radiance": {
+      "classVariant": []
+    },
+    "Wrath of Nature": {
+      "classVariant": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    },
+    "Zephyr Strike": {
+      "classVariant": [
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "XGE"
+        }
+      ]
+    }
+  },
+  "BMT": {
+    "Antagonize": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        }
+      ]
+    },
+    "Spirit of Death": {
+      "classVariant": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        }
+      ]
+    },
+    "Spray of Cards": {
+      "classVariant": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "BMT"
+        }
+      ]
+    }
+  },
+  "XPHB": {
+    "Acid Splash": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Aid": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Alarm": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Alter Self": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Animal Friendship": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Animal Messenger": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Animal Shapes": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Animate Dead": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Animate Objects": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Antilife Shell": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Antimagic Field": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Antipathy/Sympathy": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Arcane Eye": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Arcane Gate": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Arcane Lock": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Arcane Vigor": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Armor of Agathys": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Arms of Hadar": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Astral Projection": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Augury": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Aura of Life": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Aura of Purity": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Aura of Vitality": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Awaken": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Bane": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Banishing Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Banishment": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Barkskin": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Beacon of Hope": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Beast Sense": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Befuddlement": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Bestow Curse": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Bigby's Hand": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blade Barrier": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blade Ward": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Bless": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blight": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blinding Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blindness/Deafness": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blink": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Blur": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Burning Hands": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Call Lightning": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Calm Emotions": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Chain Lightning": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Charm Monster": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Charm Person": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Chill Touch": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Chromatic Orb": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Circle of Death": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Circle of Power": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Clairvoyance": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Clone": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Cloud of Daggers": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Cloudkill": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Color Spray": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Command": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Commune": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Commune with Nature": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Compelled Duel": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Comprehend Languages": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Compulsion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Cone of Cold": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Confusion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Animals": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Barrage": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Celestial": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Elemental": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Fey": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Minor Elementals": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Volley": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Conjure Woodland Beings": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Contact Other Plane": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Contagion": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Contingency": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Continual Flame": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Control Water": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Control Weather": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Cordon of Arrows": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Counterspell": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Create Food and Water": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Create or Destroy Water": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Create Undead": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Creation": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Crown of Madness": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Crusader's Mantle": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Cure Wounds": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dancing Lights": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Darkness": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Darkvision": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Daylight": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Death Ward": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Delayed Blast Fireball": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Demiplane": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Destructive Wave": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Detect Evil and Good": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Detect Magic": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Detect Poison and Disease": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Detect Thoughts": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dimension Door": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Disguise Self": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Disintegrate": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dispel Evil and Good": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dispel Magic": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dissonant Whispers": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Divination": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Divine Favor": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Divine Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Divine Word": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dominate Beast": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dominate Monster": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dominate Person": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dragon's Breath": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Drawmij's Instant Summons": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Dream": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Druidcraft": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Earthquake": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Eldritch Blast": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Elemental Weapon": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Elementalism": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Enhance Ability": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Enlarge/Reduce": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ensnaring Strike": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Entangle": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Enthrall": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Etherealness": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Evard's Black Tentacles": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Expeditious Retreat": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Eyebite": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fabricate": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Faerie Fire": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "False Life": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fear": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Feather Fall": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Feign Death": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Find Familiar": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Find Steed": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Find the Path": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Find Traps": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Finger of Death": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fire Bolt": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fire Shield": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fire Storm": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fireball": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Flame Blade": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Flame Strike": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Flaming Sphere": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Flesh to Stone": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fly": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fog Cloud": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Forbiddance": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Forcecage": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Foresight": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Fount of Moonlight": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Freedom of Movement": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Friends": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Gaseous Form": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Gate": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Geas": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Gentle Repose": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Giant Insect": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Glibness": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Globe of Invulnerability": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Glyph of Warding": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Goodberry": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Grasping Vine": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Grease": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Greater Invisibility": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Greater Restoration": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Guardian of Faith": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Guards and Wards": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Guidance": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Guiding Bolt": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Gust of Wind": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hail of Thorns": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hallow": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hallucinatory Terrain": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Harm": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Haste": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Heal": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Healing Word": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Heat Metal": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hellish Rebuke": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Heroes' Feast": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Heroism": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hex": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hold Monster": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hold Person": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Holy Aura": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hunger of Hadar": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hunter's Mark": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Hypnotic Pattern": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ice Knife": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ice Storm": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Identify": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Illusory Script": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Imprisonment": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Incendiary Cloud": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Inflict Wounds": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Insect Plague": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Invisibility": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Jallarzi's Storm of Radiance": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Jump": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Knock": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Legend Lore": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Leomund's Secret Chest": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Leomund's Tiny Hut": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Lesser Restoration": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Levitate": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Light": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Lightning Arrow": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Lightning Bolt": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Locate Animals or Plants": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Locate Creature": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Locate Object": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Longstrider": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mage Armor": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mage Hand": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Magic Circle": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Magic Jar": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Magic Missile": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Magic Mouth": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Magic Weapon": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Major Image": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mass Cure Wounds": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mass Heal": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mass Healing Word": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mass Suggestion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Maze": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Meld into Stone": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Melf's Acid Arrow": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mending": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Message": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Meteor Swarm": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mind Blank": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mind Sliver": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mind Spike": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Minor Illusion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mirage Arcane": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mirror Image": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mislead": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Misty Step": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Modify Memory": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Moonbeam": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mordenkainen's Faithful Hound": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mordenkainen's Magnificent Mansion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mordenkainen's Private Sanctum": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Mordenkainen's Sword": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Move Earth": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Nondetection": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Nystul's Magic Aura": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Otiluke's Freezing Sphere": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Otiluke's Resilient Sphere": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Otto's Irresistible Dance": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Pass without Trace": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Passwall": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Phantasmal Force": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Phantasmal Killer": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Phantom Steed": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Planar Ally": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Planar Binding": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Plane Shift": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Plant Growth": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Poison Spray": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Polymorph": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Power Word Fortify": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Power Word Heal": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Power Word Kill": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Power Word Stun": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Prayer of Healing": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Prestidigitation": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Prismatic Spray": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Prismatic Wall": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Produce Flame": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Programmed Illusion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Project Image": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Protection from Energy": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Protection from Evil and Good": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Protection from Poison": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Purify Food and Drink": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Raise Dead": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Rary's Telepathic Bond": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ray of Enfeeblement": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ray of Frost": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Ray of Sickness": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Regenerate": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Reincarnate": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Remove Curse": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Resistance": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Resurrection": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Reverse Gravity": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Revivify": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Rope Trick": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sacred Flame": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sanctuary": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Scorching Ray": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Scrying": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Searing Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "See Invisibility": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Seeming": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sending": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sequester": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shapechange": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shatter": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shield": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shield of Faith": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shillelagh": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shining Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Shocking Grasp": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Silence": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Silent Image": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Simulacrum": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sleep": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sleet Storm": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Slow": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sorcerous Burst": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Spare the Dying": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Speak with Animals": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Speak with Dead": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Speak with Plants": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Spider Climb": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Spike Growth": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Spirit Guardians": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Spiritual Weapon": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Staggering Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Starry Wisp": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Steel Wind Strike": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Stinking Cloud": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Stone Shape": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Stoneskin": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Storm of Vengeance": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Suggestion": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Aberration": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Beast": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Celestial": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Construct": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Dragon": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Elemental": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Fey": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Fiend": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Summon Undead": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sunbeam": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Sunburst": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Swift Quiver": {
+      "class": [
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Symbol": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Synaptic Static": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tasha's Bubbling Cauldron": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tasha's Hideous Laughter": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Telekinesis": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Telepathy": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Teleport": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Teleportation Circle": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tenser's Floating Disk": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Thaumaturgy": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Thorn Whip": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Thunderclap": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Thunderous Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Thunderwave": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Time Stop": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Toll the Dead": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tongues": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Transport via Plants": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tree Stride": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "True Polymorph": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "True Resurrection": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "True Seeing": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "True Strike": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Tsunami": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Unseen Servant": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Vampiric Touch": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Vicious Mockery": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Vitriolic Sphere": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wall of Fire": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wall of Force": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wall of Ice": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wall of Stone": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wall of Thorns": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Warding Bond": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Water Breathing": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Water Walk": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Web": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Weird": {
+      "class": [
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wind Walk": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wind Wall": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wish": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Witch Bolt": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Word of Radiance": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Word of Recall": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Wrathful Smite": {
+      "class": [
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Yolande's Regal Presence": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB"
+        }
+      ]
+    },
+    "Zone of Truth": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB"
+        }
+      ]
+    }
+  },
+  "FRHoF": {
+    "Alustriel's Mooncloak": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Ranger",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Backlash": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Blade of Disaster": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Cacophonic Shield": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Conjure Constructs": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Death Armor": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Deryan's Helpful Homunculi": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Dirge": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Doomtide": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Warlock",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Elminster's Effulgent Spheres": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Elminster's Elusion": {
+      "class": [
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Holy Star of Mystra": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Laeral's Silver Lance": {
+      "class": [
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Simbul's Synostodweomer": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Songal's Elemental Suffusion": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Spellfire Flare": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Spellfire Storm": {
+      "class": [
+        {
+          "name": "Sorcerer",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Sylun\u00e9's Viper": {
+      "class": [
+        {
+          "name": "Druid",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    },
+    "Wardaway": {
+      "class": [
+        {
+          "name": "Bard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Cleric",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Paladin",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        },
+        {
+          "name": "Wizard",
+          "source": "XPHB",
+          "definedInSource": "FRHoF"
+        }
+      ]
+    }
+  },
+  "EFA": {
+    "Homunculus Servant": {
+      "class": []
+    }
+  }
+}

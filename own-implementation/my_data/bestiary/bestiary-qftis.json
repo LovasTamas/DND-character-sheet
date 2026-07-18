@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "QftIS",
+        "JttRC": "QftIS",
+        "MPMM": "QftIS"
+      }
+    }
+  },
+  "monster": []
+}

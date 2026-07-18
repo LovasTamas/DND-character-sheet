@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "NRH-TCMC": "NRH-AT",
+        "NRH-ASS": "NRH-AT",
+        "MM": "NRH-AT"
+      }
+    }
+  },
+  "monster": []
+}

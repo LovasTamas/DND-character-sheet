@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "CRCotN",
+        "EGW": "CRCotN"
+      }
+    }
+  },
+  "monster": []
+}

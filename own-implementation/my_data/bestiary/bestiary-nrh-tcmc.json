@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "otherSources": {
+      "monster": {
+        "MM": "NRH-TCMC"
+      }
+    }
+  },
+  "monster": []
+}

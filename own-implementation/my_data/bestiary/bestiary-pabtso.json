@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "dependencies": {
+      "monster": [
+        "MM"
+      ]
+    },
+    "internalCopies": [
+      "monster"
+    ],
+    "otherSources": {
+      "monster": {
+        "MM": "PaBTSO",
+        "DoSI": "PaBTSO",
+        "MOT": "PaBTSO",
+        "MPMM": "PaBTSO"
+      }
+    }
+  },
+  "monster": []
+}

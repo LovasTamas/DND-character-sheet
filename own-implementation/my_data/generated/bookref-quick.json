@@ -1,0 +1,105 @@
+{
+  "reference": {
+    "bookref-quick": {
+      "name": "Quick Reference (5e/2014)",
+      "id": "bookref-quick",
+      "contents": [
+        {
+          "name": "Character Creation",
+          "headers": [
+            "Beyond 1st Level",
+            "Languages",
+            "Multiclassing",
+            "Step-by-Step Characters"
+          ]
+        },
+        {
+          "name": "Equipment",
+          "headers": [
+            "Adventuring Gear",
+            "Armor and Shields",
+            "Attunement",
+            "Expenses",
+            "Mounts and Vehicles",
+            "Starting Equipment",
+            "Tools",
+            "Trade Goods",
+            "Wealth",
+            "Weapons"
+          ]
+        },
+        {
+          "name": "Playing the Game",
+          "headers": [
+            "Ability Checks",
+            "Ability Scores and Modifiers",
+            "Advantage and Disadvantage",
+            "Casting a Spell",
+            "Conditions",
+            "Falling",
+            "Food and Water",
+            "Hiding",
+            "How to Play",
+            "Interacting with Objects",
+            "Proficiency Bonus",
+            "Resting",
+            "Saving Throws",
+            "Simultaneous Effects",
+            "Skills",
+            "Sleep",
+            "Suffocating",
+            "Tying Knots",
+            "Using Each Ability",
+            "Vision and Light"
+          ]
+        },
+        {
+          "name": "Combat",
+          "headers": [
+            "Actions in Combat",
+            "Cover",
+            "Damage and Healing",
+            "Making an Attack",
+            "Mounted Combat",
+            "Movement and Position",
+            "The Order of Combat",
+            "Underwater Combat"
+          ]
+        },
+        {
+          "name": "Adventuring",
+          "headers": [
+            "Climbing, Swimming, and Crawling",
+            "Difficult Terrain",
+            "Jumping",
+            "Travel Pace"
+          ]
+        }
+      ]
+    }
+  },
+  "data": {
+    "bookref-quick": [
+      {
+        "type": "entries",
+        "entries": []
+      },
+      {
+        "type": "entries",
+        "entries": []
+      },
+      {
+        "type": "entries",
+        "entries": []
+      },
+      {
+        "type": "entries",
+        "entries": []
+      },
+      {
+        "type": "entries",
+        "entries": []
+      }
+    ]
+  }
+}
