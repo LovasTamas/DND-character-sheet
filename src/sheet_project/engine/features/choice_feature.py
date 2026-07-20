@@ -15,5 +15,5 @@ class ChoiceFeature(FeatureBase):
     def use(self):
         pass
 
-    def rest(self):
+    def rest(self, rest_type):
         pass
