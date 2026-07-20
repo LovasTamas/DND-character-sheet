@@ -1,0 +1,116 @@
+{
+  "weapons": {
+    "spear": {
+      "id": "spear",
+      "name": "Spear",
+      "category": "simple",
+      "type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "ability": "strength",
+        "damage_type": "piercing"
+      },
+      "versatile_damage": "1d8",
+      "properties": ["thrown", "versatile"],
+      "mastery": "sap",
+      "range": {
+        "normal": 20,
+        "long": 60
+      },
+      "weight": 3,
+      "cost": {
+        "amount": 1,
+        "unit": "gp"
+      }
+    },
+    "light_crossbow": {
+      "id": "light_crossbow",
+      "name": "Light Crossbow",
+      "category": "simple",
+      "type": "ranged",
+      "damage": {
+        "dice": "1d8",
+        "ability": "dexterity",
+        "damage_type": "piercing"
+      },
+      "versatile_damage": null,
+      "properties": ["ammunition", "loading", "two_handed"],
+      "mastery": "slow",
+      "range": {
+        "normal": 80,
+        "long": 320
+      },
+      "weight": 5,
+      "cost": {
+        "amount": 25,
+        "unit": "gp"
+      }
+    },
+    "shortbow": {
+      "id": "shortbow",
+      "name": "Shortbow",
+      "category": "simple",
+      "type": "ranged",
+      "damage": {
+        "dice": "1d6",
+        "ability": "dexterity",
+        "damage_type": "piercing"
+      },
+      "versatile_damage": null,
+      "properties": ["ammunition", "two_handed"],
+      "mastery": "vex",
+      "range": {
+        "normal": 80,
+        "long": 320
+      },
+      "weight": 2,
+      "cost": {
+        "amount": 25,
+        "unit": "gp"
+      }
+    },
+    "longsword": {
+      "id": "longsword",
+      "name": "Longsword",
+      "category": "martial",
+      "type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "ability": "strength",
+        "damage_type": "slashing"
+      },
+      "versatile_damage": "1d10",
+      "properties": ["versatile"],
+      "mastery": "sap",
+      "range": null,
+      "weight": 3,
+      "cost": {
+        "amount": 15,
+        "unit": "gp"
+      }
+    },
+    "dagger": {
+      "id": "dagger",
+      "name": "Dagger",
+      "category": "simple",
+      "type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "ability": "strength",
+        "damage_type": "piercing"
+      },
+      "versatile_damage": null,
+      "properties": ["finesse", "light", "thrown"],
+      "mastery": "nick",
+      "range": {
+        "normal": 20,
+        "long": 60
+      },
+      "weight": 1,
+      "cost": {
+        "amount": 2,
+        "unit": "gp"
+      }
+    }
+  }
+}

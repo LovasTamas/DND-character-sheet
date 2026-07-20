@@ -73,6 +73,55 @@
             "name": "Tactical Mind",
             "desc": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.",
             "type": "passive"
+        },
+
+        "darkvision_60": {
+            "id": "darkvision_60",
+            "name": "Darkvision",
+            "desc": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light.",
+            "type": "passive"
+        },
+
+        "keen_senses": {
+            "id": "keen_senses",
+            "name": "Keen Senses",
+            "desc": "Your otherworldly senses are sharp. You have especially perceptive awareness of the world around you.",
+            "type": "passive"
+        },
+
+        "fey_ancestry": {
+            "id": "fey_ancestry",
+            "name": "Fey Ancestry",
+            "desc": "You have fey magic in your bloodline, granting you resilience against effects that would cloud your mind or put you to sleep.",
+            "type": "passive"
+        },
+
+        "trance": {
+            "id": "trance",
+            "name": "Trance",
+            "desc": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend them in a meditative trance.",
+            "type": "passive"
+        },
+
+        "resourceful": {
+            "id": "resourceful",
+            "name": "Resourceful",
+            "desc": "You quickly adapt to new challenges and draw on a wide range of practical experience.",
+            "type": "passive"
+        },
+
+        "skillful": {
+            "id": "skillful",
+            "name": "Skillful",
+            "desc": "You show broad talent and pick up expertise with ease, reflecting humanity's versatility.",
+            "type": "passive"
+        },
+
+        "versatile": {
+            "id": "versatile",
+            "name": "Versatile",
+            "desc": "You are capable of turning your efforts toward many pursuits, whether martial, scholarly, or social.",
+            "type": "passive"
         }
     }
 }

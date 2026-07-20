@@ -1,0 +1,34 @@
+{
+  "items": {
+    "20_arrows": {
+      "id": "20_arrows",
+      "name": "20 Arrows",
+      "kind": "ammunition",
+      "weight": 1,
+      "cost": {
+        "amount": 1,
+        "unit": "gp"
+      }
+    },
+    "backpack": {
+      "id": "backpack",
+      "name": "Backpack",
+      "kind": "gear",
+      "weight": 5,
+      "cost": {
+        "amount": 2,
+        "unit": "gp"
+      }
+    },
+    "torch": {
+      "id": "torch",
+      "name": "Torch",
+      "kind": "gear",
+      "weight": 1,
+      "cost": {
+        "amount": 1,
+        "unit": "cp"
+      }
+    }
+  }
+}

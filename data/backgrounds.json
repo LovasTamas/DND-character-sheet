@@ -1,0 +1,24 @@
+{
+  "backgrounds": [
+    {
+      "id": "guard",
+      "name": "Guard",
+      "ability_options": ["strength", "intelligence", "wisdom"],
+      "skill_profs": ["athletics", "perception"],
+      "tool_prof": "gaming_set",
+      "languages": [],
+      "feat": "alert",
+      "equipment": ["spear", "light_crossbow"]
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "ability_options": ["strength", "dexterity", "constitution"],
+      "skill_profs": ["athletics", "intimidation"],
+      "tool_prof": "gaming_set",
+      "languages": [],
+      "feat": "savage_attacker",
+      "equipment": ["spear", "shortbow", "20_arrows"]
+    }
+  ]
+}

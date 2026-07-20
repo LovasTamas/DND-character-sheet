@@ -1,0 +1,20 @@
+{
+  "feats": {
+    "alert": {
+      "id": "alert",
+      "name": "Alert",
+      "desc": "You gain the following benefits: You can't be surprised while conscious. You gain a bonus to Initiative equal to your Proficiency Bonus. Other creatures don't gain the bonuses of unseen attackers against you.",
+      "type": "passive",
+      "modifiers": [
+        { "target": "initiative", "op": "add", "value": "proficiency_bonus" }
+      ]
+    },
+    "savage_attacker": {
+      "id": "savage_attacker",
+      "name": "Savage Attacker",
+      "desc": "Once per turn when you hit a target with a melee weapon attack and roll damage for it, you can reroll the weapon's damage dice and use either roll. This benefit is descriptive only here because the current modifier vocabulary does not model damage-roll rerolls.",
+      "type": "passive",
+      "modifiers": []
+    }
+  }
+}

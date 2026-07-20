@@ -1,0 +1,79 @@
+{
+  "armors": {
+    "padded": {
+      "id": "padded",
+      "name": "Padded",
+      "category": "light",
+      "base_ac": 11,
+      "ac_bonus": 0,
+      "dex_bonus": "full",
+      "strength_requirement": null,
+      "stealth_disadvantage": true,
+      "weight": 8,
+      "cost": {
+        "amount": 5,
+        "unit": "gp"
+      }
+    },
+    "leather": {
+      "id": "leather",
+      "name": "Leather",
+      "category": "light",
+      "base_ac": 11,
+      "ac_bonus": 0,
+      "dex_bonus": "full",
+      "strength_requirement": null,
+      "stealth_disadvantage": false,
+      "weight": 10,
+      "cost": {
+        "amount": 10,
+        "unit": "gp"
+      }
+    },
+    "chain_shirt": {
+      "id": "chain_shirt",
+      "name": "Chain Shirt",
+      "category": "medium",
+      "base_ac": 13,
+      "ac_bonus": 0,
+      "dex_bonus": "max_2",
+      "strength_requirement": null,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost": {
+        "amount": 50,
+        "unit": "gp"
+      }
+    },
+    "chain_mail": {
+      "id": "chain_mail",
+      "name": "Chain Mail",
+      "category": "heavy",
+      "base_ac": 16,
+      "ac_bonus": 0,
+      "dex_bonus": "none",
+      "strength_requirement": 13,
+      "stealth_disadvantage": true,
+      "weight": 55,
+      "cost": {
+        "amount": 75,
+        "unit": "gp"
+      }
+    },
+    "shield": {
+      "id": "shield",
+      "name": "Shield",
+      "category": "shield",
+      "base_ac": 0,
+      "ac_bonus": 2,
+      "dex_bonus": "none",
+      "strength_requirement": null,
+      "stealth_disadvantage": false,
+      "weight": 6,
+      "cost": {
+        "amount": 10,
+        "unit": "gp"
+      }
+    }
+  }
+}
