@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "id": "fighter",
+            "name": "Fighter",
+
+            "saving_prof": [
+                "strength",
+                "constitution"
+            ],
+
+            "wep_prof": [
+                "simple",
+                "martial"
+            ],
+
+            "armor_prof": [
+                "light",
+                "medium",
+                "heavy",
+                "shield"
+            ],
+
+            "features": {
+                "1": [
+                    "fighting_style",
+                    "second_wind",
+                    "weapon_mastery"
+                ],
+                "2": [
+                    "action_surge",
+                    "tactical_mind"
+                ],
+                "3": [
+                    "fighter_subclass"
+                ]
+            },
+
+            "hp": {
+                "first_level": "10|constitution",
+                "per_level": "6|constitution"
+            }
+        }
+    ]
+}
