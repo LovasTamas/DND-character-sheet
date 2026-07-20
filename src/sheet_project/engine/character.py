@@ -22,6 +22,8 @@ class Character:
         self.skill_profs = set()
 
         self.current_hp = 0
+        self.initiative = 0
+        self.passive_perception = 0
 
         self.update_automatic_values()
 
@@ -39,6 +41,7 @@ class Character:
         self.calculate_ability_modifiers()
         self.calculate_saving_throw_values()
         self.calculate_skills()
+        self.calculate_passive_perception()
 
     @property
     def proficiency_bonus(self):
@@ -54,6 +57,7 @@ class Character:
     def calculate_ability_modifiers(self):
         for ability, score in self.ability_points.items():
             self.ability_modifiers[ability] = (score - 10) // 2
+        self.initiative = self.ability_modifiers[ABILITIES.DEXTERITY]
 
     def calculate_saving_throw_values(self):
         for ability in ABILITIES:
@@ -105,3 +109,9 @@ class Character:
             self.skills[skill] = self.ability_modifiers[SKILL_TO_ABILITY[skill]]
             if skill in self.skill_profs:
                 self.skills[skill] += self.proficiency_bonus
+
+    def calculate_passive_perception(self):
+        self.passive_perception = 13+self.skills[SKILLPROF.PERCEPTION]
+
+    def apply_modifiers(self):
+        pass

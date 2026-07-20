@@ -39,7 +39,11 @@
             "hp": {
                 "first_level": "10|constitution",
                 "per_level": "6|constitution"
-            }
+            },
+
+            "size": "M",
+
+            "speed": 30
         }
     ]
 }
