@@ -1,14 +1,15 @@
-import os, json, ast
+import json
 from sheet_project.engine.classes.abilities import ABILITIES
 from sheet_project.engine.classes.proficiencies import SKILLPROF, WEPPROF, ARMORPROF
 from sheet_project.engine.classes.hitpoints import HitPointProgression
 from sheet_project.engine.classes.character_class import CharacterClass
 from sheet_project.engine.features.factory import FeatureLoader
+from sheet_project.engine.paths import DATA_DIR
 
 
 class ClassLoader:
     def __init__(self, class_name: str):
-        self.path_to_data = os.path.join(os.getcwd(), "data", "classes.json")
+        self.path_to_data = DATA_DIR / "classes.json"
         class_name = class_name.lower()
         self.class_name = class_name
     

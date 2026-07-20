@@ -1,7 +1,8 @@
 from .active_feature import ActiveFeature
 from .choice_feature import ChoiceFeature
 from .feature import Feature
-import os, json
+from sheet_project.engine.paths import DATA_DIR
+import json
 
 
 def create_feature(data):
@@ -19,8 +20,7 @@ def create_feature(data):
 
 class FeatureLoader:
     def __init__(self, needed_features: list):
-        print(f"CWD is {os.getcwd()}, {needed_features}")
-        self.path_to_features = os.path.join(os.getcwd(), "data", "class_features.json")
+        self.path_to_features = DATA_DIR / "class_features.json"
         self.needed_features = needed_features
 
     def load_features(self):
@@ -31,5 +31,4 @@ class FeatureLoader:
                 feature_block = raw[feat]
                 created_feature = create_feature(feature_block)
                 features_to_return[feat] = created_feature
-        print(f"Returning with features: {features_to_return}")
         return features_to_return
