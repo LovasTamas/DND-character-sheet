@@ -29,3 +29,12 @@ class ArmorLoader:
             data["weight"],
             data["cost"],
         )
+
+    @classmethod
+    def list_armors(cls) -> list[dict]:
+        with open(DATA_DIR / "armors.json", "r", encoding="utf-8") as f:
+            raw = json.load(f)["armors"]
+            return [
+                {"id": aid, "name": a["name"], "category": a["category"]}
+                for aid, a in raw.items()
+            ]

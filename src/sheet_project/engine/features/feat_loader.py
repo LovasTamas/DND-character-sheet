@@ -17,3 +17,9 @@ class FeatLoader:
                 created_feature = create_feature(feature_block)
                 features_to_return[feat] = created_feature
         return features_to_return
+
+    @classmethod
+    def list_feats(cls) -> list[dict]:
+        with open(DATA_DIR / "feats.json", "r", encoding="utf-8") as f:
+            raw = json.load(f)["feats"]
+            return [{"id": fid, "name": feat["name"]} for fid, feat in raw.items()]

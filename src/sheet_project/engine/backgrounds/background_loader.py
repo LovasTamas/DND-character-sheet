@@ -42,3 +42,8 @@ class BackgroundLoader:
                     )
 
         raise ValueError(f"Background '{self.background_name}' not found")
+
+    @classmethod
+    def list_backgrounds(cls) -> list[dict]:
+        with open(DATA_DIR / "backgrounds.json", "r", encoding="utf-8") as f:
+            return [{"id": b["id"], "name": b["name"]} for b in json.load(f)["backgrounds"]]

@@ -30,3 +30,12 @@ class WeaponLoader:
             data["weight"],
             data["cost"],
         )
+
+    @classmethod
+    def list_weapons(cls) -> list[dict]:
+        with open(DATA_DIR / "weapons.json", "r", encoding="utf-8") as f:
+            raw = json.load(f)["weapons"]
+            return [
+                {"id": wid, "name": w["name"], "category": w["category"], "type": w["type"]}
+                for wid, w in raw.items()
+            ]

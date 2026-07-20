@@ -33,21 +33,28 @@ The only class the outside world instantiates. Detailed lifecycle in
 Public surface (what most callers touch):
 
 - **Constructor**: `Character(name, class_name, background_name=None, race_name=None)`
-- **Properties**: `proficiency_bonus`, `max_hp`
-- **Mutation**: `set_ability`, `add_skill_prof`, `remove_skill_prof`,
-  `set_hp`, `use_feature`, `rest`, `level_up`,
-  `set_background_ability_bonuses`, `add_item`, `remove_item`,
-  `equip_weapon`, `unequip_weapon`, `equip_armor`, `unequip_armor`,
-  `equip_shield`, `unequip_shield`
+- **Properties**: `proficiency_bonus`, `max_hp`, `hit_dice_total`
+- **Mutation**: `set_name`, `set_ability`, `add_skill_prof`, `remove_skill_prof`,
+  `set_hp`, `set_temporary_hp`, `take_damage`, `heal`, `use_feature`, `rest`,
+  `spend_hit_die`, `level_up`, `set_background_ability_bonuses`,
+  `set_class`, `set_race`, `set_background`, `set_subclass`,
+  `add_item`, `remove_item`, `equip_weapon`, `unequip_weapon`,
+  `equip_armor`, `unequip_armor`, `equip_shield`, `unequip_shield`
+- **Serialization**: `to_dict()` (full UI-facing JSON, see
+  [webui-architecture.md](./webui-architecture.md#character-json-shape)),
+  `to_save_dict()` / classmethod `from_save_dict(data)` (input-state-only
+  round trip for persistence)
 - **State exposed as attributes**: `name`, `level`, `character_class`,
-  `background`, `race`, `ability_points`, `ability_modifiers`,
+  `background`, `race`, `subclass`, `ability_points`, `ability_modifiers`,
   `saving_throw_values`, `skills`, `skill_profs`, `tool_profs`,
   `languages`, `speed`, `size`, `creature_type`, `features`, `choices`,
-  `current_hp`, `initiative`, `passive_perception`, `inventory`,
-  `equipped_weapons`, `equipped_armor`, `equipped_shield`, `ac`.
+  `current_hp`, `temporary_hp`, `hit_dice_remaining`, `initiative`,
+  `passive_perception`, `inventory`, `equipped_weapons`,
+  `equipped_armor`, `equipped_shield`, `ac`.
 
 Private helpers: `_merge_features`, `_recompute_skill_prof_union`,
 `_initialize_features`, `_seed_inventory_from_background`,
+`_prune_stale_choices`, `_feature_source`, `_skill_sources`,
 `_find_in_inventory`, `_apply_single_modifier`,
 `_apply_attribute_modifier`, `_apply_dict_modifier`,
 `_resolve_modifier_value`.
@@ -89,8 +96,8 @@ class HitPointProgression:
 
 ### `character_class.py`
 
-Frozen dataclass: `class_name, hitpoints, armor_profs, weapon_profs,
-saving_throw_profs, features`.
+Frozen dataclass: `class_name, name, hitpoints, armor_profs,
+weapon_profs, saving_throw_profs, features, hit_die`.
 
 ⚠ **Known type-annotation bug**: `features: set[Feature|ActiveFeature|
 ChoiceFeature]` — in practice `ClassLoader` populates it with a dict
@@ -104,6 +111,8 @@ See `PLAN.md` "Out of scope".
 `ClassLoader(class_name).load_class(level)` — see
 [loaders.md](./loaders.md#classloader). Uses helper methods for HP,
 weapon/armor/saving profs, and cumulative feature-list assembly.
+`ClassLoader.list_classes()` (classmethod) returns `[{id, name}, …]`
+for the whole catalog without hydrating any `CharacterClass`.
 
 ## `engine/features/`
 
@@ -144,7 +153,56 @@ weapon/armor/saving profs, and cumulative feature-list assembly.
 ### `feat_loader.py`
 
 `FeatLoader(needed_feats).load_features()` — same as `FeatureLoader`
-but reads `data/feats.json` (top key `"feats"`).
+but reads `data/feats.json` (top key `"feats"`). Also exposes
+`FeatLoader.list_feats()` (classmethod) returning `[{id, name}, …]`.
+
+## `engine/subclasses/`
+
+### `subclass_loader.py`
+
+Catalog-only loader for subclass **options** (subclass content/features
+are out of scope — see `PLAN_webui_backend.md`):
+
+```python
+class SubclassLoader:
+    def list_for_class(self, class_id: str) -> list[dict]: ...
+
+    @classmethod
+    def unlock_level(cls, class_id: str) -> int: ...
+```
+
+`list_for_class` reads `data/subclasses.json`. `unlock_level` looks up
+`SUBCLASS_UNLOCK_LEVEL` (a `{class_id: level}` dict, defaulting to `3`)
+— the minimum level `Character.set_subclass` requires before accepting
+a choice.
+
+## `engine/serialization.py`
+
+Free functions used by `Character.to_dict()`/`to_save_dict()` to keep
+serialization-shape concerns (enum → `.value`, set → sorted list,
+dataclass → public fields) out of the character model itself:
+
+- `serialize_value(value)` — recursively normalizes enums, sets,
+  dicts, lists, and nested dataclasses into JSON-safe values.
+- `serialize_dataclass(obj)` — serializes a dataclass's public fields
+  via `serialize_value`. Used for `Weapon`/`Armor`/`Item`.
+- `serialize_feature(feature, choices=None)` — emits `{id, name, desc,
+  kind}` plus `max_use`/`remaining_use` for `ActiveFeature` or
+  `chosen_value` (looked up from `choices`) for `ChoiceFeature`.
+
+## `engine/persistence.py`
+
+File-backed save/load, per `PLAN_webui_backend.md` §8:
+
+```python
+def save(character: Character, path: str | Path) -> None: ...
+def load(path: str | Path) -> Character: ...
+```
+
+`save` writes `character.to_save_dict()` to a temp file then
+`os.replace`s it into place (atomic on POSIX). `load` reads the JSON
+and rebuilds via `Character.from_save_dict`. Callers should always go
+through this module rather than opening character JSON files directly.
 
 ## `engine/backgrounds/`
 
@@ -167,7 +225,8 @@ class Background:
 
 `BackgroundLoader(name).load_background()` — case-insensitive lookup;
 raises `ValueError` on miss. Resolves `feat` id → `Feature` via
-`FeatLoader`.
+`FeatLoader`. Also exposes `BackgroundLoader.list_backgrounds()`
+(classmethod) returning `[{id, name}, …]`.
 
 ## `engine/races/`
 
@@ -189,7 +248,8 @@ class Race:
 `RaceLoader(name).load_race()` — case-insensitive lookup. Race features
 live in `class_features.json`, resolved via `FeatureLoader`. Silently
 returns `None` if the race id is not found (contrast BackgroundLoader,
-which raises).
+which raises). Also exposes `RaceLoader.list_races()` (classmethod)
+returning `[{id, name}, …]`.
 
 ## `engine/equipment/`
 
@@ -241,7 +301,9 @@ increments `quantity` on the matching entry instead of duplicating it.
 returns `{id: <dataclass>}` for exactly the requested ids. Each also
 exposes a static `_build_<kind>(data)` helper that builds a single
 instance from a raw JSON dict; `resolver.py` reuses these statics
-directly instead of instantiating a loader per id.
+directly instead of instantiating a loader per id. Each loader also
+exposes a classmethod `list_weapons()` / `list_armors()` / `list_items()`
+returning a lightweight `[{id, name, …}]` catalog list for UI dropdowns.
 
 ### `resolver.py`
 
@@ -299,6 +361,7 @@ src/sheet_project/engine/features/__init__.py  (empty)
 src/sheet_project/engine/backgrounds/__init__.py (empty)
 src/sheet_project/engine/races/__init__.py     (empty)
 src/sheet_project/engine/equipment/__init__.py (empty)
+src/sheet_project/engine/subclasses/__init__.py  (re-exports SubclassLoader, SUBCLASS_UNLOCK_LEVEL)
 ```
 
 Note that `src/sheet_project/` itself has **no `__init__.py`**; it works

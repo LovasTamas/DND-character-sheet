@@ -60,9 +60,16 @@ class ClassLoader:
             for char_class in classes:
                 if char_class['id'] == self.class_name:
                     self.class_name = self.class_name
+                    self.display_name = char_class.get("name", self.class_name)
                     self.character_hp_progression = self.handle_hp(char_class)
                     self.wep_pros = self.load_wep_profs(char_class)
                     self.armor_profs = self.load_armor_profs(char_class)
                     self.saving_profs = self.load_saving_profs(char_class)
+                    self.hit_die = char_class.get("hit_die")
                     self.loaded_features = FeatureLoader(self.load_feature_list(char_class, level)).load_features()
-        return CharacterClass(self.class_name, self.character_hp_progression, self.armor_profs, self.wep_pros, self.saving_profs, self.loaded_features)
+        return CharacterClass(self.class_name, self.display_name, self.character_hp_progression, self.armor_profs, self.wep_pros, self.saving_profs, self.loaded_features, self.hit_die)
+
+    @classmethod
+    def list_classes(cls) -> list[dict]:
+        with open(DATA_DIR / "classes.json", "r", encoding="utf-8") as f:
+            return [{"id": c["id"], "name": c["name"]} for c in json.load(f)["classes"]]

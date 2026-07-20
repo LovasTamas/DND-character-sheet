@@ -20,6 +20,7 @@ Each class entry:
 | `features` | `{ "<level>": [feature_id, …] }` | Level → list of ids into `class_features.json`. Loaded cumulatively up to the character's current level. |
 | `hp.first_level` | `"<int>\|<ability>"` | E.g. `"10\|constitution"`. Parsed by `ClassLoader.handle_hp`. |
 | `hp.per_level` | `"<int>\|<ability>"` | E.g. `"6\|constitution"`. |
+| `hit_die` | string | E.g. `"d10"`. Stored verbatim on `CharacterClass.hit_die`; surfaced to the UI via `Character.spend_hit_die()` and the `vitals.hit_die` field of `to_dict()`. |
 | `size` | string | Currently unread by the engine (race supplies size). |
 | `speed` | int | Currently unread by the engine (race supplies speed). |
 
@@ -36,7 +37,8 @@ Example (fighter):
     "2": ["action_surge", "tactical_mind"],
     "3": ["fighter_subclass"]
   },
-  "hp": { "first_level": "10|constitution", "per_level": "6|constitution" }
+  "hp": { "first_level": "10|constitution", "per_level": "6|constitution" },
+  "hit_die": "d10"
 }
 ```
 
@@ -47,7 +49,9 @@ Top-level shape: `{ "features": { "<id>": { … } } }`.
 Despite the filename, this file also stores **race features**
 (`darkvision_60`, `keen_senses`, `resourceful`, …) — the split is
 historical and both `FeatureLoader` and `RaceLoader` read from the same
-file.
+file. It also holds the `fighter_subclass` `ChoiceFeature` stub
+referenced by `classes.json` at level 3 — see `data/subclasses.json`
+below for the actual catalog of subclass options.
 
 Every feature entry has:
 
@@ -173,6 +177,29 @@ Top-level shape: `{ "items": { "<id>": { … } } }`.
 Loaded by `ItemLoader`; resolved via `EquipmentResolver` into the `Item`
 dataclass (`src/sheet_project/engine/equipment/item.py`). Catch-all for
 equipment that is neither a weapon nor armor.
+
+## `data/subclasses.json`
+
+Top-level shape: `{ "subclasses": { "<class_id>": [ { "id", "name" }, … ] } }`.
+
+A catalog-only file: it enumerates subclass *options* for a dropdown.
+Subclass **features** are out of scope (see
+[`../PLAN_webui_backend.md`](../PLAN_webui_backend.md#out-of-scope-intentionally-deferred)).
+Loaded by `SubclassLoader.list_for_class(class_id)`
+(`src/sheet_project/engine/subclasses/subclass_loader.py`), which also
+exposes `SubclassLoader.unlock_level(class_id)` — the minimum
+character level required before `Character.set_subclass` accepts a
+choice (currently `3` for every modeled class).
+
+## Catalog listing helpers
+
+Every loader above additionally exposes a `list_*` classmethod (e.g.
+`ClassLoader.list_classes()`, `BackgroundLoader.list_backgrounds()`,
+`RaceLoader.list_races()`, `FeatLoader.list_feats()`,
+`WeaponLoader.list_weapons()`, `ArmorLoader.list_armors()`,
+`ItemLoader.list_items()`) that returns a lightweight `[{id, name, …}]`
+list without hydrating full dataclass instances — intended for UI
+dropdowns.
 
 ## Modifier objects (used inside `modifiers: [...]`)
 

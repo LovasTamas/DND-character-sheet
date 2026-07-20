@@ -18,6 +18,9 @@ codebase as it exists in `src/sheet_project/`.
 | [loaders.md](./loaders.md) | The four loaders (`ClassLoader`, `FeatureLoader`, `FeatLoader`, `BackgroundLoader`, `RaceLoader`) and their shared pattern |
 | [module-reference.md](./module-reference.md) | File-by-file walkthrough of `src/sheet_project/engine/` |
 | [glossary.md](./glossary.md) | D&D and engine-specific terms used throughout the code |
+| [vision.md](./vision.md) | Original short vision statement for the Web UI |
+| [webui-vision.md](./webui-vision.md) | Elaborated Web UI specification: layout, screens, interactions, per-region rules |
+| [webui-architecture.md](./webui-architecture.md) | Web UI technical architecture: stack, project layout, API contract, deployment |
 
 ## Quick project map
 
@@ -31,25 +34,32 @@ DND-character-sheet/
 │   ├── races.json              # 2024 species (Human, Elf, …)
 │   ├── weapons.json            # Weapon catalog (Spear, Shortbow, …)
 │   ├── armors.json             # Armor + shield catalog
-│   └── items.json              # Generic gear/ammunition catalog
+│   ├── items.json              # Generic gear/ammunition catalog
+│   ├── subclasses.json         # Subclass option catalog (content stays out of scope)
+│   └── characters/             # Persisted character save files (engine.persistence)
 │
 ├── src/sheet_project/
 │   └── engine/
 │       ├── character.py        # Central aggregator — the only class the caller uses
 │       ├── paths.py            # DATA_DIR helper (cwd-independent)
 │       ├── rest_type.py        # RESTTYPE enum (short / long rest)
+│       ├── serialization.py    # Enum/set/dataclass/feature -> JSON-safe dict helpers
+│       ├── persistence.py      # File-backed save/load (Character.to_save_dict round trip)
 │       │
 │       ├── classes/            # CharacterClass + supporting types (HP, profs, abilities)
 │       ├── features/           # Feature hierarchy + FeatureLoader/FeatLoader/factory
 │       ├── backgrounds/        # Background dataclass + BackgroundLoader
 │       ├── races/              # Race dataclass + RaceLoader
+│       ├── subclasses/         # SubclassLoader (catalog-only; no subclass content yet)
 │       └── equipment/          # Weapon/Armor/Item dataclasses + loaders + EquipmentResolver
 │
 ├── src/sheet_project/tests/
 │   └── engine_tester.py        # Ad-hoc runnable smoke/integration test
 │
 ├── PLAN.md                     # Historical plan: fix cwd-dependent loading (done)
-└── PLAN_races_backgrounds.md   # Historical plan: races/backgrounds/feats (done)
+├── PLAN_races_backgrounds.md   # Historical plan: races/backgrounds/feats (done)
+├── PLAN_inventory_ac.md        # Historical plan: inventory + AC (done)
+└── PLAN_webui_backend.md       # Active plan: backend gaps to unblock the Web UI
 ```
 
 ## Running the tester

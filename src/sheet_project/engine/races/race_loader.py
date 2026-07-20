@@ -25,3 +25,8 @@ class RaceLoader:
                         creature_type=race["creature_type"],
                         features=loaded_features,
                     )
+
+    @classmethod
+    def list_races(cls) -> list[dict]:
+        with open(DATA_DIR / "races.json", "r", encoding="utf-8") as f:
+            return [{"id": r["id"], "name": r["name"]} for r in json.load(f)["races"]]

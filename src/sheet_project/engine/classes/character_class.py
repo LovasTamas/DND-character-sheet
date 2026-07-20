@@ -13,6 +13,7 @@ from sheet_project.engine.features.feature import Feature
 @dataclass(frozen=True)
 class CharacterClass:
     class_name: str
+    name: str
 
     hitpoints: HitPointProgression
 
@@ -21,3 +22,4 @@ class CharacterClass:
 
     saving_throw_profs: set[ABILITIES]
     features: set[Feature|ActiveFeature|ChoiceFeature]
+    hit_die: str

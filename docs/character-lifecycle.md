@@ -20,8 +20,8 @@ The constructor performs, in order:
 1. **Load content** via the three loaders. `background` and `race` are
    `None` if their name argument is `None` (backwards compatible).
 2. **Initialize input state:** `ability_points` (all zero),
-   `background_ability_bonuses` (empty), `current_hp = 0`, empty
-   `choices`.
+   `background_ability_bonuses` (empty), `current_hp = 0`,
+   `temporary_hp = 0`, empty `choices`.
 3. **Initialize derived state** to zero-valued dicts:
    `ability_modifiers`, `saving_throw_values`, `skills`.
 4. **Set the three skill-prof source sets**:
@@ -37,14 +37,19 @@ The constructor performs, in order:
    - `speed` → `race.speed` or `30`
    - `size` → `race.size` or `"medium"`
    - `creature_type` → `race.creature_type` or `"humanoid"`
-7. **Merge features** into `self.features` via `_merge_features`.
-8. **Initialize equipment state**: `inventory` (empty list),
-   `equipped_weapons` (empty list), `equipped_armor` / `equipped_shield`
-   (`None`), `ac = 10`. Then seeds `inventory` from the background's
-   `equipment` ids via `_seed_inventory_from_background()` — this only
-   populates `inventory`, it never auto-equips anything.
-9. **Recompute all derived state** via `update_automatic_values()`.
-10. **Initialize per-feature state** via `_initialize_features()`
+7. **Hit dice:** `hit_dice_remaining` starts at `level` (i.e. `1`).
+   `hit_dice_total` is a property that always mirrors `self.level`.
+8. **Subclass:** `self.subclass = None`.
+9. **Merge features** into `self.features` via `_merge_features`.
+10. **Initialize equipment state**: `inventory` (empty list),
+    `equipped_weapons` (empty list), `equipped_armor` / `equipped_shield`
+    (`None`), `ac = 10`. Then seeds `inventory` from the background's
+    `equipment` ids via `_seed_inventory_from_background()` — this only
+    populates `inventory`, it never auto-equips anything. Ids already
+    present in `inventory` are skipped (additive-with-dedupe), which
+    matters when this same helper reruns after `set_background`.
+11. **Recompute all derived state** via `update_automatic_values()`.
+12. **Initialize per-feature state** via `_initialize_features()`
     (sets `ActiveFeature.max_use` and `remaining_use`).
 
 ## Feature merging
@@ -115,14 +120,25 @@ that touch state which does not affect derived values).
 | `set_ability(ability, value)` | Rejects out-of-range values (< 0 or > 20) silently. Otherwise stores the raw score and recomputes. |
 | `add_skill_prof(skill)` / `remove_skill_prof(skill)` | Mutates only `skill_profs_from_player`, then recomputes. |
 | `set_hp(hp)` | Clamped to `0 ≤ hp ≤ max_hp`. Does *not* trigger recompute (HP is not derived). |
+| `set_temporary_hp(value)` | Clamps to `≥ 0`, no upper bound — direct overwrite semantics; the frontend decides overwrite-vs-add. Does not recompute. |
+| `take_damage(amount)` | Subtracts from `temporary_hp` first, remainder from `current_hp` (both floored at `0`). No-op for `amount ≤ 0`. |
+| `heal(amount)` | Adds to `current_hp`, capped at `max_hp`. Never touches `temporary_hp`. No-op for `amount ≤ 0`. |
 | `use_feature(feature_id)` | Delegates to the feature's `.use()` if it's an `ActiveFeature`; returns `True`/`False`. |
-| `rest(rest_type: RESTTYPE)` | Calls `.rest(rest_type)` on every feature. `ActiveFeature.rest` reads its `resource.recharge` map. |
-| `level_up(new_level)` | Rebuilds `character_class` at the new level, re-merges features, recomputes, and re-initializes ActiveFeature charges (see below). |
+| `rest(rest_type: RESTTYPE)` | Calls `.rest(rest_type)` on every feature. `ActiveFeature.rest` reads its `resource.recharge` map. A `RESTTYPE.LONG` rest additionally resets `current_hp` to `max_hp`, `temporary_hp` to `0`, and `hit_dice_remaining` to `hit_dice_total` (MVP restores hit dice to full; the 2024 half-restore rule is deferred). |
+| `spend_hit_die()` | Decrements `hit_dice_remaining` if `> 0` and returns `character_class.hit_die` (e.g. `"d10"`) for the caller to roll; returns `None` otherwise. The engine never rolls dice. |
+| `level_up(new_level)` | Rebuilds `character_class` at the new level, re-merges features, grows `hit_dice_remaining` by the levels gained (capped at the new `hit_dice_total`), recomputes, and re-initializes ActiveFeature charges (see below). |
 | `set_background_ability_bonuses(bonuses)` | Validates the distribution (see below) and recomputes. Returns `True` on success, `False` on rejection. |
+| `set_name(name)` | Trivial assignment; no recompute. |
+| `set_class(class_name)` | Reloads via a fresh `ClassLoader` at the current level, resets `subclass` to `None`, re-merges features, prunes `choices` for feature ids no longer present, recomputes. |
+| `set_race(race_name \| None)` | Reloads (or clears) the race, refreshes `speed`/`size`/`creature_type`, re-merges features, prunes stale `choices`, recomputes. |
+| `set_background(background_name \| None)` | Reloads (or clears) the background, replaces `skill_profs_from_background`/`tool_profs`/`languages`, resets `background_ability_bonuses` (the player re-picks), re-merges features, prunes stale `choices`, re-seeds inventory (additive-with-dedupe — see `_seed_inventory_from_background`), recomputes. |
+| `set_subclass(subclass_id \| None)` | Rejects (`False`) if `level` is below `SubclassLoader.unlock_level(class_id)` (`3` for Fighter), or if `subclass_id` isn't in `SubclassLoader().list_for_class(class_id)`. Otherwise sets `self.subclass` and records `choices["<class_id>_subclass"]`, returning `True`. |
 | `add_item(item_or_id, quantity=1)` / `remove_item(item_id, quantity=1)` | Mutate `inventory` (stacking by id via `InventoryEntry.quantity`). Does *not* recompute — inventory contents don't affect derived stats until equipped. |
 | `equip_weapon(weapon_id)` / `unequip_weapon(weapon_id)` | Move a `Weapon` already in `inventory` into/out of `equipped_weapons`. No AC effect, so no recompute. |
 | `equip_armor(armor_id)` / `unequip_armor()` | Set/clear `equipped_armor` (must be `LIGHT`/`MEDIUM`/`HEAVY` category) and recompute. |
 | `equip_shield(armor_id)` / `unequip_shield()` | Set/clear `equipped_shield` (must be `SHIELD` category) and recompute. |
+| `to_dict()` | Returns the full UI-facing JSON representation (enums → `.value`, sets → sorted lists, dataclasses → public fields, features tagged with a `kind` discriminator). See [webui-architecture.md](./webui-architecture.md#character-json-shape) for the shape. |
+| `to_save_dict()` / `Character.from_save_dict(data)` | Serialize/rebuild *input* state only (no derived fields); used by `engine/persistence.py`. `from_save_dict` replays the same public setters used during normal play. |
 
 ### Equipment methods
 

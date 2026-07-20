@@ -23,3 +23,9 @@ class ItemLoader:
             data["weight"],
             data["cost"],
         )
+
+    @classmethod
+    def list_items(cls) -> list[dict]:
+        with open(DATA_DIR / "items.json", "r", encoding="utf-8") as f:
+            raw = json.load(f)["items"]
+            return [{"id": iid, "name": i["name"], "kind": i["kind"]} for iid, i in raw.items()]
