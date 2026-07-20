@@ -215,5 +215,9 @@ with tempfile.TemporaryDirectory() as tmp_dir:
     assert reloaded.equipped_armor is not None
     assert reloaded.equipped_armor.id == "chain_mail"
     assert {e.item.id for e in reloaded.inventory} == {e.item.id for e in serial_char.inventory}
+    assert len(reloaded.inventory) == len(serial_char.inventory)
+    reloaded_qty = {e.item.id: e.quantity for e in reloaded.inventory}
+    original_qty = {e.item.id: e.quantity for e in serial_char.inventory}
+    assert reloaded_qty == original_qty, (reloaded_qty, original_qty)
 
 print("Persistence roundtrip test passed")

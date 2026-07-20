@@ -675,6 +675,10 @@ class Character:
             if isinstance(feature, ChoiceFeature):
                 feature.choose(character, value)
 
+        # The constructor already seeded the background's starting equipment
+        # into `inventory`; replace it with the saved entries so quantities
+        # don't stack on top of the seed on every reload.
+        character.inventory = []
         for entry in data.get("inventory", []):
             character.add_item(entry["item_id"], entry.get("quantity", 1))
 
