@@ -1,2 +1,4 @@
 *.xml
 /.idea/DND-character-sheet.iml
+/.venv/*
+/.venv
