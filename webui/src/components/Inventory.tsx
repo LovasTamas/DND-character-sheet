@@ -151,8 +151,26 @@ export function InventoryPanel({ character }: { character: Character }) {
   const [query, setQuery] = useState('')
 
   const itemsQuery = useQuery({
-    queryKey: ['catalog', 'items', query],
-    queryFn: () => catalogApi.items(query),
+    queryKey: ['catalog', 'equipment', query],
+    queryFn: async () => {
+      const [weapons, armors, items] = await Promise.all([
+        catalogApi.weapons(query),
+        catalogApi.armors(query),
+        catalogApi.items(query),
+      ])
+      type Entry = { id: string; name: string; kind?: string }
+      const merged: Entry[] = [
+        ...weapons.map((w) => ({ id: w.id, name: w.name, kind: 'weapon' })),
+        ...armors.map((a) => ({
+          id: a.id,
+          name: a.name,
+          kind: a.category === 'shield' ? 'shield' : 'armor',
+        })),
+        ...items.map((i) => ({ id: i.id, name: i.name, kind: i.kind })),
+      ]
+      merged.sort((a, b) => a.name.localeCompare(b.name))
+      return merged
+    },
   })
 
   const addMutation = useCharacterMutation(character.id, (itemId: string) =>
