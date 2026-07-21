@@ -1,43 +1,158 @@
 {
-  "classes": [
-    {
+  "classes": {
+    "fighter": {
       "id": "fighter",
       "name": "Fighter",
-      "saving_prof": [
+
+      "saving_throws": [
         "strength",
         "constitution"
       ],
-      "wep_prof": [
-        "simple",
-        "martial"
-      ],
-      "armor_prof": [
-        "light",
-        "medium",
-        "heavy",
-        "shield"
-      ],
-      "features": {
-        "1": [
-          "fighting_style",
-          "second_wind",
-          "weapon_mastery"
+
+      "proficiencies": {
+        "weapons": [
+          "simple",
+          "martial"
         ],
-        "2": [
-          "action_surge",
-          "tactical_mind"
-        ],
-        "3": [
-          "fighter_subclass"
+        "armor": [
+          "light",
+          "medium",
+          "heavy",
+          "shield"
         ]
       },
-      "hp": {
-        "first_level": "10|constitution",
-        "per_level": "6|constitution"
+
+      "hit_points": {
+        "hit_die": "d10",
+        "first_level": {
+          "base": 10,
+          "ability": "constitution"
+        },
+        "per_level": {
+          "base": 6,
+          "ability": "constitution"
+        }
       },
-      "size": "M",
+
+      "size": "medium",
+
       "speed": 30,
-      "hit_die": "d10"
+
+      "features": [
+        {
+          "level": 1,
+          "id": "fighting_style"
+        },
+        {
+          "level": 1,
+          "id": "second_wind"
+        },
+        {
+          "level": 1,
+          "id": "weapon_mastery"
+        },
+
+        {
+          "level": 2,
+          "id": "action_surge"
+        },
+        {
+          "level": 2,
+          "id": "tactical_mind"
+        },
+
+        {
+          "level": 3,
+          "id": "fighter_subclass",
+          "type": "choice",
+          "choices": "fighter_subclasses"
+        },
+
+        {
+          "level": 4,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 5,
+          "id": "extra_attack"
+        },
+        {
+          "level": 5,
+          "id": "tactical_shift"
+        },
+
+        {
+          "level": 6,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 7,
+          "id": "fighter_subclass_feature",
+          "type": "subclass_feature"
+        },
+
+        {
+          "level": 8,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 9,
+          "id": "indomitable"
+        },
+
+        {
+          "level": 11,
+          "id": "extra_attack_improvement"
+        },
+
+        {
+          "level": 12,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 13,
+          "id": "indomitable_improvement"
+        },
+
+        {
+          "level": 14,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 15,
+          "id": "fighter_subclass_feature"
+        },
+
+        {
+          "level": 16,
+          "id": "ability_score_improvement"
+        },
+
+        {
+          "level": 17,
+          "id": "action_surge_improvement"
+        },
+
+        {
+          "level": 18,
+          "id": "fighter_subclass_feature"
+        },
+
+        {
+          "level": 19,
+          "id": "epic_boon"
+        },
+
+        {
+          "level": 20,
+          "id": "extra_attack_mastery"
+        }
+      ]
     }
-  ]
+  }
 }

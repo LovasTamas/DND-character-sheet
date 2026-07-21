@@ -1,0 +1,45 @@
+{
+  "fighting_styles": {
+    "archery": {
+      "id": "archery",
+      "name": "Archery",
+      "description": "You gain a +2 bonus to attack rolls you make with ranged weapons.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "attack_roll",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 2
+          },
+          "conditions": [
+            "using_ranged_weapon"
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "defense": {
+      "id": "defense",
+      "name": "Defense",
+      "description": "While wearing armor, you gain +1 AC.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "armor_class",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 1
+          },
+          "conditions": [
+            "wearing_armor"
+          ],
+          "metadata": {}
+        }
+      ]
+    }
+  }
+}

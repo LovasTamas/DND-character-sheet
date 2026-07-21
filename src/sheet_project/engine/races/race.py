@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from dataclasses import dataclass
-
 from sheet_project.engine.features.feature import Feature
 
 

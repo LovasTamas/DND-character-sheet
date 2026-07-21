@@ -1,0 +1,87 @@
+{
+  "species_traits": {
+
+    "darkvision": {
+      "id": "darkvision",
+      "name": "Darkvision",
+
+      "description": "You can see in dim light within 60 feet as if it were bright light.",
+
+      "features": [
+        {
+          "type": "grant",
+          "target": "sense",
+          "operation": "add",
+
+          "value": {
+            "type": "darkvision",
+            "range": 60
+          },
+
+          "conditions": [],
+
+          "metadata": {}
+        }
+      ]
+    },
+
+
+    "fey_ancestry": {
+      "id": "fey_ancestry",
+      "name": "Fey Ancestry",
+
+      "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+
+      "features": [
+        {
+          "type": "grant",
+          "target": "condition_resistance",
+
+          "operation": "add",
+
+          "value": {
+            "type": "charmed"
+          },
+
+          "conditions": [],
+
+          "metadata": {}
+        },
+
+        {
+          "type": "reminder",
+
+          "metadata": {
+            "text": "Magic cannot put you to sleep."
+          }
+        }
+      ]
+    },
+
+
+    "dwarven_toughness": {
+      "id": "dwarven_toughness",
+      "name": "Dwarven Toughness",
+
+      "description": "Your hit point maximum increases by 1, and increases by 1 again whenever you gain a level.",
+
+      "features": [
+        {
+          "type": "modifier",
+          "target": "hit_points_maximum",
+          "operation": "add",
+
+          "value": {
+            "type": "level_scaling",
+            "amount": 1
+          },
+
+          "conditions": [],
+
+          "metadata": {}
+        }
+      ]
+    }
+
+  }
+}

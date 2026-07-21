@@ -1,24 +1,104 @@
 {
-  "backgrounds": [
-    {
+  "backgrounds": {
+    "guard": {
       "id": "guard",
       "name": "Guard",
-      "ability_options": ["strength", "intelligence", "wisdom"],
-      "skill_profs": ["athletics", "perception"],
-      "tool_prof": "gaming_set",
-      "languages": [],
-      "feat": "alert",
-      "equipment": ["spear", "light_crossbow"]
+
+      "description": "You served as a guard, protecting a settlement and keeping order.",
+
+      "ability_score_options": {
+        "mode": "choose",
+        "options": [
+          "strength",
+          "intelligence",
+          "wisdom"
+        ],
+        "count": 3
+      },
+
+      "proficiencies": {
+        "skills": [
+          "athletics",
+          "perception"
+        ],
+
+        "tools": [
+          "Gaming set"
+        ],
+
+        "languages": []
+      },
+
+      "features": [
+        {
+          "type": "feat",
+          "id": "alert"
+        }
+      ],
+
+      "equipment": [
+        {
+          "id": "spear",
+          "quantity": 1
+        },
+        {
+          "id": "light_crossbow",
+          "quantity": 1
+        }
+      ]
     },
-    {
+
+
+    "soldier": {
       "id": "soldier",
       "name": "Soldier",
-      "ability_options": ["strength", "dexterity", "constitution"],
-      "skill_profs": ["athletics", "intimidation"],
-      "tool_prof": "gaming_set",
-      "languages": [],
-      "feat": "savage_attacker",
-      "equipment": ["spear", "shortbow", "20_arrows"]
+
+      "description": "You trained as a soldier, learning discipline, tactics, and battlefield skills.",
+
+      "ability_score_options": {
+        "mode": "choose",
+        "options": [
+          "strength",
+          "dexterity",
+          "constitution"
+        ],
+        "count": 3
+      },
+
+      "proficiencies": {
+        "skills": [
+          "athletics",
+          "intimidation"
+        ],
+
+        "tools": [
+          "gaming_set"
+        ],
+
+        "languages": []
+      },
+
+      "features": [
+        {
+          "type": "feat",
+          "id": "savage_attacker"
+        }
+      ],
+
+      "equipment": [
+        {
+          "id": "spear",
+          "quantity": 1
+        },
+        {
+          "id": "shortbow",
+          "quantity": 1
+        },
+        {
+          "id": "arrow",
+          "quantity": 20
+        }
+      ]
     }
-  ]
+  }
 }

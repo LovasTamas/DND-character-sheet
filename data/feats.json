@@ -2,19 +2,277 @@
   "feats": {
     "alert": {
       "id": "alert",
+      "category": "origin",
       "name": "Alert",
-      "desc": "You gain the following benefits: You can't be surprised while conscious. You gain a bonus to Initiative equal to your Proficiency Bonus. Other creatures don't gain the bonuses of unseen attackers against you.",
-      "type": "passive",
-      "modifiers": [
-        { "target": "initiative", "op": "add", "value": "proficiency_bonus" }
+      "description": "Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll.\nInitiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "initiative",
+          "operation": "add",
+          "value": {
+            "type": "proficiency_bonus"
+          },
+          "conditions": [],
+          "metadata": {}
+        },
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Immediately after rolling Initiative, you may swap your Initiative with a willing ally."
+          }
+        }
       ]
     },
+
     "savage_attacker": {
       "id": "savage_attacker",
+      "category": "origin",
       "name": "Savage Attacker",
-      "desc": "Once per turn when you hit a target with a melee weapon attack and roll damage for it, you can reroll the weapon's damage dice and use either roll. This benefit is descriptive only here because the current modifier vocabulary does not model damage-roll rerolls.",
-      "type": "passive",
-      "modifiers": []
+      "description": "You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll."
+          }
+        }
+      ]
+    },
+
+    "archery": {
+      "id": "archery",
+      "category": "fighting_style",
+      "name": "Archery",
+      "description": "You gain a +2 bonus to attack rolls you make with ranged weapons.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "attack_roll",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 2
+          },
+          "conditions": [
+            "using_ranged_weapon"
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "blind_fighting": {
+      "id": "blind_fighting",
+      "category": "fighting_style",
+      "name": "Blind Fighting",
+      "description": "You have Blindsight with a range of 10 feet.",
+      "features": [
+        {
+          "type": "grant",
+          "target": "sense",
+          "operation": "grant",
+          "value": {
+            "type": "blindsight",
+            "value": 10
+          },
+          "conditions": [],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "defense": {
+      "id": "defense",
+      "category": "fighting_style",
+      "name": "Defense",
+      "description": "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "armor_class",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 1
+          },
+          "conditions": [
+            "wearing_armor"
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "dueling": {
+      "id": "dueling",
+      "category": "fighting_style",
+      "name": "Dueling",
+      "description": "When you're holding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "weapon_damage",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 2
+          },
+          "conditions": [
+            "using_melee_weapon",
+            "one_handed_weapon",
+            "offhand_empty"
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "great_weapon_fighting": {
+      "id": "great_weapon_fighting",
+      "category": "fighting_style",
+      "name": "Great Weapon Fighting",
+      "description": "When you roll damage for an attack you make with a melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Treat damage dice of 1 or 2 as 3 when using a qualifying weapon."
+          }
+        }
+      ]
+    },
+
+    "interception": {
+      "id": "interception",
+      "category": "fighting_style",
+      "name": "Interception",
+      "description": "When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Reaction: Reduce damage by 1d10 + your proficiency bonus while holding a shield or a simple or martial weapon."
+          }
+        }
+      ]
+    },
+
+    "protection": {
+      "id": "protection",
+      "category": "fighting_style",
+      "name": "Protection",
+      "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Reaction: While holding a shield, impose disadvantage on the triggering attack."
+          }
+        }
+      ]
+    },
+
+    "thrown_weapon_fighting": {
+      "id": "thrown_weapon_fighting",
+      "category": "fighting_style",
+      "name": "Thrown Weapon Fighting",
+      "description": "When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "weapon_damage",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 2
+          },
+          "conditions": [
+            "using_thrown_weapon"
+          ],
+          "metadata": {}
+        }
+      ]
+    },
+
+    "two_weapon_fighting": {
+      "id": "two_weapon_fighting",
+      "category": "fighting_style",
+      "name": "Two-Weapon Fighting",
+      "description": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Add your ability modifier to the damage of your off-hand attack."
+          }
+        }
+      ]
+    },
+
+    "unarmed_fighting": {
+      "id": "unarmed_fighting",
+      "category": "fighting_style",
+      "name": "Unarmed Fighting",
+      "description": "Your unarmed strikes deal improved damage.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Your unarmed strikes deal 1d6 + Strength modifier, or 1d8 + Strength modifier if you aren't holding weapons or a shield. Grappled creatures take 1d4 bludgeoning damage at the start of your turn."
+          }
+        }
+      ]
+    },
+
+    "ability_score_improvement": {
+      "id": "ability_score_improvement",
+      "category": "general",
+      "name": "Ability Score Improvement",
+      "description": "Increase one ability score by 2, or increase two ability scores by 1. No ability score can exceed 20.",
+      "features": [
+        {
+          "type": "choice",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "choice": "ability_score_improvement",
+            "mode": "single_or_split",
+            "points": 2,
+            "max_score": 20
+          }
+        }
+      ]
     }
   }
 }

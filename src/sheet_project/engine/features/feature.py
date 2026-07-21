@@ -1,31 +1,14 @@
-from abc import ABC, abstractmethod
-from sheet_project.engine.rest_type import RESTTYPE
-
-class FeatureBase(ABC):
-    def __init__(self, data):
-        super().__init__()
-        self.id = data["id"]
-        self.name = data["name"]
-        self.description = data["desc"]
-        self.type = data["type"]
-
-        self.data = data
-
-    @abstractmethod
-    def rest(self, rest_type: RESTTYPE):
-        pass
-
-    @abstractmethod
-    def use(self):
-        pass
+from dataclasses import dataclass, field
+from typing import Any
 
 
-class Feature(FeatureBase):
-    def __init__(self, data):
-        super().__init__(data)
+@dataclass
+class Feature:
+    type: str
 
-    def rest(self, rest_type: RESTTYPE):
-        pass
+    target: str | None = None
+    operation: str | None = None
+    value: dict[str, Any] | None = None
 
-    def use(self):
-        pass
+    conditions: list[str] = field(default_factory=list)
+    metadata: dict[str, Any] = field(default_factory=dict)

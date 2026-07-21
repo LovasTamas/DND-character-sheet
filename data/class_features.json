@@ -1,122 +1,255 @@
 {
-  "features": {
-    "second_wind": {
-      "id": "second_wind",
-      "name": "Second Wind",
-      "desc": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
-      "type": "active",
-      "activation": "bonus_action",
-      "resource": {
-        "type": "charges",
-        "amount": {
-          "1": 2,
-          "4": 3,
-          "10": 4
-        },
-        "recharge": {
-          "short_rest": 1,
-          "long_rest": -1
-        }
-      }
-    },
+  "class_features": {
+
     "fighting_style": {
       "id": "fighting_style",
       "name": "Fighting Style",
-      "desc": "You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.",
-      "type": "choice",
-      "choice": {
-        "source": "fighting_styles",
-        "amount": 1
-      }
+      "category": "fighter",
+      "description": "You adopt a particular style of fighting as your specialty.",
+      "features": [
+        {
+          "type": "choice",
+          "target": "fighting_style",
+          "operation": "choose",
+          "value": {
+            "type": "feature_list",
+            "list": "fighting_styles"
+          },
+          "conditions": [],
+          "metadata": {
+            "choices": 1
+          }
+        }
+      ]
     },
+
+
+    "second_wind": {
+      "id": "second_wind",
+      "name": "Second Wind",
+      "category": "fighter",
+      "description": "You have a limited well of stamina that you can draw on to protect yourself from harm.",
+      "features": [
+        {
+          "type": "resource",
+          "target": "second_wind",
+          "operation": "grant",
+          "value": {
+            "type": "resource",
+            "uses": 2,
+            "recharge": "long_rest"
+          },
+          "conditions": [],
+          "metadata": {
+            "action": "bonus_action",
+            "effect": "heal",
+            "formula": "1d10 + fighter_level"
+          }
+        }
+      ]
+    },
+
+
     "weapon_mastery": {
       "id": "weapon_mastery",
       "name": "Weapon Mastery",
-      "desc": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
-      "type": "choice",
-      "choice": {
-        "source": "weapons",
-        "amount": {
-          "1": 3,
-          "4": 4,
-          "10": 5
+      "category": "fighter",
+      "description": "You can use the mastery properties of weapons with which you have mastery.",
+      "features": [
+        {
+          "type": "choice",
+          "target": "weapon_mastery",
+          "operation": "choose",
+          "value": {
+            "type": "weapon_list"
+          },
+          "conditions": [],
+          "metadata": {
+            "choices": 3
+          }
         }
-      }
+      ]
     },
+
+
     "action_surge": {
       "id": "action_surge",
       "name": "Action Surge",
-      "desc": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
-      "type": "active",
-      "resource": {
-        "type": "charges",
-        "amount": {
-          "2": 1,
-          "17": 2
-        },
-        "recharge": {
-          "short_rest": -1,
-          "long_rest": -1
+      "category": "fighter",
+      "description": "You can push yourself beyond your normal limits for a moment.",
+      "features": [
+        {
+          "type": "resource",
+          "target": "action_surge",
+          "operation": "grant",
+          "value": {
+            "type": "resource",
+            "uses": 1,
+            "recharge": "short_rest"
+          },
+          "conditions": [],
+          "metadata": {
+            "action": "special"
+          }
         }
-      }
+      ]
     },
+
+
     "tactical_mind": {
       "id": "tactical_mind",
       "name": "Tactical Mind",
-      "desc": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.",
-      "type": "passive"
+      "category": "fighter",
+      "description": "You have a tactical mind that allows you to add your Tactical Mind bonus to failed ability checks.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "ability_check",
+          "operation": "add",
+          "value": {
+            "type": "fighter_level_scaling"
+          },
+          "conditions": [
+            "failed_ability_check"
+          ],
+          "metadata": {}
+        }
+      ]
     },
-    "darkvision_60": {
-      "id": "darkvision_60",
-      "name": "Darkvision",
-      "desc": "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light.",
-      "type": "passive"
-    },
-    "keen_senses": {
-      "id": "keen_senses",
-      "name": "Keen Senses",
-      "desc": "Your otherworldly senses are sharp. You have especially perceptive awareness of the world around you.",
-      "type": "passive"
-    },
-    "fey_ancestry": {
-      "id": "fey_ancestry",
-      "name": "Fey Ancestry",
-      "desc": "You have fey magic in your bloodline, granting you resilience against effects that would cloud your mind or put you to sleep.",
-      "type": "passive"
-    },
-    "trance": {
-      "id": "trance",
-      "name": "Trance",
-      "desc": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend them in a meditative trance.",
-      "type": "passive"
-    },
-    "resourceful": {
-      "id": "resourceful",
-      "name": "Resourceful",
-      "desc": "You quickly adapt to new challenges and draw on a wide range of practical experience.",
-      "type": "passive"
-    },
-    "skillful": {
-      "id": "skillful",
-      "name": "Skillful",
-      "desc": "You show broad talent and pick up expertise with ease, reflecting humanity's versatility.",
-      "type": "passive"
-    },
-    "versatile": {
-      "id": "versatile",
-      "name": "Versatile",
-      "desc": "You are capable of turning your efforts toward many pursuits, whether martial, scholarly, or social.",
-      "type": "passive"
-    },
+
+
     "fighter_subclass": {
       "id": "fighter_subclass",
       "name": "Fighter Subclass",
-      "desc": "You gain a fighter subclass (Martial Archetype) that grants additional features at higher levels.",
-      "type": "choice",
-      "choice": {
-        "source": "fighter_subclasses",
-        "amount": 1
-      }
+      "category": "fighter",
+      "description": "You choose a subclass that represents your specialized style of combat.",
+      "features": [
+        {
+          "type": "choice",
+          "target": "subclass",
+          "operation": "choose",
+          "value": {
+            "type": "subclass_list",
+            "class": "fighter"
+          },
+          "conditions": [],
+          "metadata": {
+            "choices": 1
+          }
+        }
+      ]
+    },
+
+
+    "ability_score_improvement": {
+      "id": "ability_score_improvement",
+      "name": "Ability Score Improvement",
+      "category": "general",
+      "description": "Increase one ability score by 2, or two ability scores by 1.",
+      "features": [
+        {
+          "type": "choice",
+          "target": "ability_scores",
+          "operation": "increase",
+          "value": {
+            "type": "ability_points",
+            "points": 2
+          },
+          "conditions": [],
+          "metadata": {
+            "maximum": 20
+          }
+        }
+      ]
+    },
+
+
+    "extra_attack": {
+      "id": "extra_attack",
+      "name": "Extra Attack",
+      "category": "fighter",
+      "description": "You can attack twice whenever you take the Attack action.",
+      "features": [
+        {
+          "type": "modifier",
+          "target": "attacks_per_action",
+          "operation": "add",
+          "value": {
+            "type": "constant",
+            "value": 1
+          },
+          "conditions": [],
+          "metadata": {}
+        }
+      ]
+    },
+
+
+    "tactical_shift": {
+      "id": "tactical_shift",
+      "name": "Tactical Shift",
+      "category": "fighter",
+      "description": "You can move more effectively when you use your Tactical Mind feature.",
+      "features": [
+        {
+          "type": "note",
+          "target": null,
+          "operation": null,
+          "value": null,
+          "conditions": [],
+          "metadata": {
+            "text": "Apply the movement benefit when Tactical Mind is used."
+          }
+        }
+      ]
+    },
+
+
+    "indomitable": {
+      "id": "indomitable",
+      "name": "Indomitable",
+      "category": "fighter",
+      "description": "You can reroll a saving throw that you fail.",
+      "features": [
+        {
+          "type": "resource",
+          "target": "indomitable",
+          "operation": "grant",
+          "value": {
+            "type": "resource",
+            "uses": 1,
+            "recharge": "long_rest"
+          },
+          "conditions": [],
+          "metadata": {
+            "effect": "saving_throw_reroll"
+          }
+        }
+      ]
+    },
+
+
+    "epic_boon": {
+      "id": "epic_boon",
+      "name": "Epic Boon",
+      "category": "general",
+      "description": "You gain an Epic Boon feat.",
+      "features": [
+        {
+          "type": "choice",
+          "target": "feat",
+          "operation": "choose",
+          "value": {
+            "type": "feat_list",
+            "list": "epic_boons"
+          },
+          "conditions": [],
+          "metadata": {
+            "choices": 1
+          }
+        }
+      ]
     }
+
   }
 }
