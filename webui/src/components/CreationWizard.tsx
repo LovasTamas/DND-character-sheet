@@ -58,11 +58,10 @@ export function CreationWizard({ onClose, onCreated }: CreationWizardProps) {
       })
       // Ability scores + background ASI are follow-up mutations against the
       // freshly created character, since POST /characters only takes the
-      // mandatory picks.
+      // mandatory picks. Backend defaults ability scores to 0, so we always
+      // send the wizard's values (including the default 10).
       for (const ability of ABILITIES) {
-        if (scores[ability] !== 10) {
-          await characterApi.setAbility(character.id, ability, scores[ability])
-        }
+        await characterApi.setAbility(character.id, ability, scores[ability])
       }
       onCreated(character.id)
     } catch (err) {
