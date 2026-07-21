@@ -189,17 +189,40 @@ function HeroicInspirationRow() {
   )
 }
 
+type BonusMode = 'split' | 'even'
+
+function detectMode(bonuses: Partial<Record<Ability, number>>): BonusMode {
+  return Object.values(bonuses).some((v) => v === 2) ? 'split' : 'even'
+}
+
+function detectSplit(
+  bonuses: Partial<Record<Ability, number>>,
+): { primary: Ability | ''; secondary: Ability | '' } {
+  let primary: Ability | '' = ''
+  let secondary: Ability | '' = ''
+  for (const [ability, value] of Object.entries(bonuses) as [Ability, number][]) {
+    if (value === 2) primary = ability
+    else if (value === 1) secondary = ability
+  }
+  return { primary, secondary }
+}
+
 /** Background ability bonus distribution panel; separate box below the ability columns. */
 export function BackgroundBonuses({ character }: { character: Character }) {
   const options = character.background?.ability_options ?? []
-  const [distribution, setDistribution] = useState<Partial<Record<Ability, number>>>(
-    character.background_ability_bonuses,
-  )
+  const [mode, setMode] = useState<BonusMode>(() => detectMode(character.background_ability_bonuses))
+  const initialSplit = detectSplit(character.background_ability_bonuses)
+  const [primary, setPrimary] = useState<Ability | ''>(initialSplit.primary)
+  const [secondary, setSecondary] = useState<Ability | ''>(initialSplit.secondary)
   const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => setDistribution(character.background_ability_bonuses), [
-    character.background_ability_bonuses,
-  ])
+  useEffect(() => {
+    const nextMode = detectMode(character.background_ability_bonuses)
+    setMode(nextMode)
+    const split = detectSplit(character.background_ability_bonuses)
+    setPrimary(split.primary)
+    setSecondary(split.secondary)
+  }, [character.background_ability_bonuses])
 
   const mutation = useCharacterMutation(
     character.id,
@@ -217,41 +240,107 @@ export function BackgroundBonuses({ character }: { character: Character }) {
 
   function submit() {
     setError(null)
-    const cleaned = Object.fromEntries(
-      Object.entries(distribution).filter(([, v]) => (v ?? 0) > 0),
-    ) as Partial<Record<Ability, number>>
-    mutation.mutate(cleaned, { onError: (err) => setError(errorMessage(err)) })
+    let bonuses: Partial<Record<Ability, number>>
+    if (mode === 'even') {
+      bonuses = Object.fromEntries(options.map((a) => [a, 1])) as Partial<Record<Ability, number>>
+    } else {
+      if (!primary || !secondary) {
+        setError('Pick a +2 ability and a different +1 ability.')
+        return
+      }
+      if (primary === secondary) {
+        setError('The +2 and +1 abilities must be different.')
+        return
+      }
+      bonuses = { [primary]: 2, [secondary]: 1 }
+    }
+    mutation.mutate(bonuses, { onError: (err) => setError(errorMessage(err)) })
   }
+
+  const optionLabels = options.map((o) => ABILITY_ABBR[o]).join(', ')
 
   return (
     <Panel title="Background ability bonuses">
       <p className="mb-2 text-[10px] uppercase tracking-widest text-slate-500">
-        Distribute +2/+1 or +1/+1/+1 among: {options.map((o) => ABILITY_ABBR[o]).join(', ')}
+        Choose how to distribute bonuses among: {optionLabels}
       </p>
-      <div className="flex flex-wrap items-end gap-2">
-        {options.map((ability) => (
-          <label key={ability} className="block text-center">
-            <FieldCaption>{ABILITY_ABBR[ability]}</FieldCaption>
-            <input
-              type="number"
-              min={0}
-              max={2}
-              value={distribution[ability] ?? 0}
-              onChange={(e) =>
-                setDistribution((prev) => ({ ...prev, [ability]: Number(e.target.value) }))
-              }
-              className="w-14 rounded-sm border border-slate-400 px-1 py-0.5 text-center tabular-nums"
-            />
-          </label>
-        ))}
-        <button
-          type="button"
-          onClick={submit}
-          className="rounded-sm border border-slate-800 bg-slate-800 px-3 py-1 text-xs font-semibold uppercase text-white hover:bg-slate-700"
-        >
-          Save
-        </button>
+      <div className="mb-3 flex flex-wrap gap-3 text-xs text-slate-700">
+        <label className="flex items-center gap-1">
+          <input
+            type="radio"
+            name={`bg-mode-${character.id}`}
+            checked={mode === 'split'}
+            onChange={() => setMode('split')}
+          />
+          +2 / +1 (two abilities)
+        </label>
+        <label className="flex items-center gap-1">
+          <input
+            type="radio"
+            name={`bg-mode-${character.id}`}
+            checked={mode === 'even'}
+            onChange={() => setMode('even')}
+          />
+          +1 / +1 / +1 (all three)
+        </label>
       </div>
+
+      {mode === 'split' ? (
+        <div className="flex flex-wrap items-end gap-2">
+          <label className="block text-center">
+            <FieldCaption>+2</FieldCaption>
+            <select
+              value={primary}
+              onChange={(e) => setPrimary(e.target.value as Ability | '')}
+              className="rounded-sm border border-slate-400 px-1 py-0.5 text-xs"
+            >
+              <option value="">—</option>
+              {options.map((ability) => (
+                <option key={ability} value={ability}>
+                  {ABILITY_ABBR[ability]}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block text-center">
+            <FieldCaption>+1</FieldCaption>
+            <select
+              value={secondary}
+              onChange={(e) => setSecondary(e.target.value as Ability | '')}
+              className="rounded-sm border border-slate-400 px-1 py-0.5 text-xs"
+            >
+              <option value="">—</option>
+              {options
+                .filter((a) => a !== primary)
+                .map((ability) => (
+                  <option key={ability} value={ability}>
+                    {ABILITY_ABBR[ability]}
+                  </option>
+                ))}
+            </select>
+          </label>
+          <button
+            type="button"
+            onClick={submit}
+            className="rounded-sm border border-slate-800 bg-slate-800 px-3 py-1 text-xs font-semibold uppercase text-white hover:bg-slate-700"
+          >
+            Save
+          </button>
+        </div>
+      ) : (
+        <div className="flex flex-wrap items-end gap-2">
+          <p className="text-xs text-slate-600">
+            +1 to each of: {optionLabels}
+          </p>
+          <button
+            type="button"
+            onClick={submit}
+            className="rounded-sm border border-slate-800 bg-slate-800 px-3 py-1 text-xs font-semibold uppercase text-white hover:bg-slate-700"
+          >
+            Save
+          </button>
+        </div>
+      )}
       <ErrorText message={error} />
     </Panel>
   )
